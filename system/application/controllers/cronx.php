@@ -39,10 +39,18 @@ class Cronx extends Controller {
         //$grams = $this->Gram_Model->get_grams_by_time_frame($time-$interval*MINUTES, $time);
         $grams = $this->Gram_Model->get_grams_by_time_frame($start_time, $time);
 
+        var_dump($grams);
+        // Need time from midnight, as gram time isn't date sensitive
+        $midnight_time = strtotime(date('n/j/Y', time()));
 
         foreach($grams as $gram) {
-            $this->Message_Model->create_message();
+            $gram_time_with_date = $midnight_time + $gram['time_of_day'];
+            $this->Message_Model->create_message(array('message' => $gram['message'], 
+                                                       'gram_id' => $gram['gram_id'], 
+                                                       'send' => $gram_time_with_date,
+                                                       'sent' => time()));
         }
+
 	//function create_message ($data)
 	//{
 		//$this->db->insert('messages', array( 'message_id' => intval($data['message_id']),
