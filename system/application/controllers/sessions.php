@@ -100,13 +100,25 @@ class Sessions extends Controller
     function register()
     {	        
     	$data['fal'] = $this->fal_front->register();
-    	echo "<pre>" . print_r($data, true) . "</pre>";
     	
     	redirect('', 'location');
     	
     	$this->load->view('templates/header', $data);
     	$this->load->view('forms/register', $data);
     	$this->load->view('templates/footer', $data);
+    }
+    
+    function register_ajax()
+    {
+      $success = $this->fal_front->register(true);
+      
+      if ($success)
+      {
+        echo json_encode(array("message"=>"success"));
+      } else
+      {
+        echo json_encode(array("message"=>"failed"));
+      }
     }
     
     // --------------------------------------------------------------------
