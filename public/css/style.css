@@ -1,176 +1,250 @@
-html, body {
-	margin: 0px;
-	padding: 0px;
-	font-family: Verdana, Arial, Sans Serif;
-	font-size: 12px;
-	line-height: 160%;
-	background-color: #F4F4F4;
-	color: #000000;
+/* RESET
+--------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, images, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+ol, ul {
+  list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+blockquote, q {
+  quotes: "" "";
 }
 
-form {
-	margin: 0px;
-	padding: 0px;
+/* FONT FACE
+--------------------------------------------------- */
+@font-face {
+  font-family: 'CronosPro';
+  src: url('../fonts/cronospro-semiboldcaptit-webfont.eot');
+  src: local('☺'), url('../fonts/cronospro-semiboldcaptit-webfont.woff') format('woff'), url('../fonts/cronospro-semiboldcaptit-webfont.ttf') format('truetype'), url('../fonts/cronospro-semiboldcaptit-webfont.svg#webfontJO5jgxv0') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-img {
-	border: 0;
+@font-face {
+  font-family: 'CronosProBold';
+  src: url('../fonts/cronospro-bold-webfont.eot');
+  src: local('☺'), url('../fonts/cronospro-bold-webfont.woff') format('woff'), url('../fonts/cronospro-bold-webfont.ttf') format('truetype'), url('../fonts/cronospro-bold-webfont.svg#webfontcJfWGzCt') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-a:link, a:active, a:visited {
-	text-decoration: none;
+.CronosPro {
+  font-weight: normal;
+  font-style: normal;
+  line-height:normal;
+  font-family: 'CronosPro', sans-serif;
+  font-size-adjust: 0.47;
 }
 
-a:hover {
-	text-decoration: underline;
+.CronosProBold {
+  font-weight: normal;
+  font-style: normal;
+  line-height:normal;
+  font-family: 'CronosProBold', sans-serif;
+  font-size-adjust: 0.45;
 }
 
-p {
-	margin: 0 0 1em 0;
-	line-height: 1.4em;
+/* COMMON ELEMENTS
+--------------------------------------------------- */
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
 }
 
-#all {
-	text-align: center;
+.small-column {
+  float: left;
+  width: 240px;
 }
 
-#content {
-	width: 940px;
-	margin: 0px auto;
-	background-color: #FFFFFF;
-	text-align: left;
+.medium-column {
+  float: left;
+  width: 480px;
 }
 
-#header {
-	margin-bottom: 24px;
-	border-bottom: solid 2px #666666;
+.ir {
+  text-indent: -9999px;
 }
 
-#logo {
-	
+body {
+  color: #4d4d4d;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.3em;
 }
 
-.single-column {
-	margin: 0px 20px;
-}
-.left-column {
-	float: left;
-	margin-left: 20px;
-	margin-right: 40px;
-	width: 430px;
-}
-.right-column {
-	float: left;
-	width: 430px;
+/* HEADER
+--------------------------------------------------- */
+#head {
+  height: 150px;
 }
 
-.bigform .textfield {
-	font-size: 24px;
-	width: 430px;
-	margin-bottom: 12px;
+#head .logo {
+  float: left;
+  background: url('../images/sm-logo.gif') no-repeat center left;
+  height: 150px;
+  width: 360px;
 }
 
-.bigform .button {
-	font-size: 24px;
+#head .right {
+  color: #4d4d4d;
+  float: left;
+  font-size: 15px;
+  padding-top: 25px;
+  text-align: right;
+  width: 600px;
 }
 
-
-.userProfileImage {
-	margin: 0px 15px 15px 0px;
-	padding: 10px;
-	float: left;
-	border: solid 2px #BBC6E4;
-	background-color: #F2F2F5;
-}
-.userProfileImage {
-	text-align: center;
-	width: 64px;
-	height: 64px;
-}
-.userSmall {
-	margin: 0px 10px 10px 0px;
-	padding: 0px;
-	float: left;
-	border: solid 2px #F2F2F5;
-	background-color: #F2F2F5;
-	width: 68px;
-	height: 68px;
-}
-.userSmallContact {
-	border: solid 2px #068828;
-}
-.userThumb {
-	display: block;
-	float: left;
-	border: solid 1px #F2F2F5;
-	width: 34px;
-	height: 34px;
-	text-align: center;
-	margin: 0px 6px 6px 0px;
-}
-.userThumbContact {
-	border: solid 1px #068828;
-}
-.userIcon {
-	display: block;
-	float: left;
-	border: solid 1px #F2F2F5;
-	width: 18px;
-	height: 18px;
-	text-align: center;
-	margin: 0px 4px 4px 0px;
-}
-.userIconContact {
-	border: solid 1px #068828;
+#head .right a {
+  color: #4b919b;
+  text-decoration: none;
 }
 
-h1, h2, h3, h4 {
-	padding: 0px;
-	font-weight: normal;
-	color: #444444;
-	line-height: 100%;
+#head .right a:hover {
+  text-decoration: underline;
 }
 
-h1 {
-	margin: 0px 0px 18px;
-	font-size: 24px;
+/* NAVIGATION
+--------------------------------------------------- */
+#nav {
+  background-color: #faf8ed;
+  border-top: 1px solid #b8e6ec;
 }
 
-h2 {
-	margin: 0px 0px 12px;
-	font-size: 18px;
-	line-height: 1.1em;
+#nav ul {
+  overflow: auto;
+  text-align: right;
 }
 
-h3 {
-	margin: 0px 0px 8px;
-	font-size: 16px;
+#nav ul li {
+  display: inline-block;
+  width: 147px;
+} 
+
+#nav ul li a {
+  color: #4b919b;
+  display: block;
+  font-size: 20px;
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
 }
 
-h4 {
-	margin: 0px 0px 4px;
-	font-size: 14px;
+#nav ul li a:hover {
+  border-bottom: 5px solid #b8e6ec;
+  padding-bottom: 5px;
 }
 
-h1.nomargin {
-	margin: 0px;
+/* MAIN CONTENT
+--------------------------------------------------- */
+#main {
+  background: url('../images/bg-grad.gif') top repeat-x;
+  height: 425px;
 }
 
-.error {
-	font-size: 12px;
-	color: #AA0000;
-}
-
-.clear {
-	clear: left;
-}
-
-
+/* FOOTER
+--------------------------------------------------- */
 #footer {
-	color: #666666;
-	clear: both;
-	text-align: center;
-	padding: 5px 50px 8px;
-	font-style: italic;
-	font-size: 12px;
+  background-color: #faf8ed;
+  border-top: 1px solid #b8e6ec;
+  border-bottom: 1px solid #b8e6ec;
+  padding: 20px 0px;
+}
+
+#footer h2 {
+  color: #4b919b;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#copyright {
+  color: #4d4d4d;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* PROMOS
+---------------------------------------------------*/
+a#twitter {
+  background: url('../images/twitter.png') no-repeat left top;
+  display: block;
+  height: 14px;
+  margin-bottom: 15px;
+}
+
+a#facebook {
+  background: url('../images/facebook.png') no-repeat left top;
+  display: block;
+  height: 17px;
+}
+
+#iphone-app a {
+  background: url('../images/app-store.png') no-repeat left top;
+  display: block;
+  height: 100px;
+}
+
+/* FORM
+--------------------------------------------------- */
+textarea {
+  border: 1px solid #b8e6ec;
+  margin-top: 10px;
+  width: 90%;
+}
+
+input[type="submit"],
+textarea {
+  border: 1px solid #447c84;
+  color: #fff;
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #72cdda;
+}
+
+textarea {
+  background-color: #fff;
+  border-color: #e7daa7;
 }
