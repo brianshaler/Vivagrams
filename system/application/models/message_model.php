@@ -55,7 +55,7 @@
 			$this->db->where('gram_id', intval($gram_id));
 			$query = $this->db->get('messages');
 			$messages = array();
-			foreach ($query->result_array() as $row)
+			foreach ($query->result_array() as $row) {
 				$messages[] = $row;
 			}
 			return $messages;

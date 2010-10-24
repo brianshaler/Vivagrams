@@ -45,22 +45,14 @@ class Cronx extends Controller {
 
         foreach($grams as $gram) {
             $gram_time_with_date = $midnight_time + $gram['time_of_day'];
-            $this->Message_Model->create_message(array('message' => $gram['message'], 
+            $this->Message_Model->create_message(array('user_id' => 1,
+                                                       'message' => $gram['message'], 
                                                        'gram_id' => $gram['gram_id'], 
                                                        'send' => $gram_time_with_date,
-                                                       'sent' => time()));
+                                                       'sent' => time(),
+                                                   ));
         }
 
-	//function create_message ($data)
-	//{
-		//$this->db->insert('messages', array( 'message_id' => intval($data['message_id']),
-												//'user_id' => intval($data['user_id']),
-												//'gram_id' => intval($data['gram_id']),
-												//'message' => $data['message'],
-												//'send' => $data['send'],
-												//'sent' => $data['sent'],
-												//'response' => $data['response'],
-												//'response_text' => $data['response_text'])); 
     }
 }
 
