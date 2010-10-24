@@ -36,7 +36,7 @@ class Gram_Model extends Model {
     {
         $grams[] = $row;
     }
-      
+    
     return $grams;
   }
   

@@ -11,7 +11,9 @@ class Plan_Model extends Model {
   {
     log_message('error', 'create_plan '.json_encode($data));
     $this->db->insert('plans', array('user_id'=>intval($data['user_id']))); 
-    return $this->db->insert_id();
+    $plan_id = $this->db->insert_id();
+    
+    return $plan_id;
   }
   
 	function get_plan_by_user_id ($user_id)
