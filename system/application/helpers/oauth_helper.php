@@ -16,8 +16,12 @@ function complete_oauth ()
 
 function oauth_url ()
 {
-  $twitterObj = new EpiTwitter(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
-  return $twitterObj->getAuthenticateUrl();
+    try {
+        $twitterObj = new EpiTwitter(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
+        $twitterObj->getAuthenticateUrl();
+    } catch(EpiOAuthException $e) {
+        return $e;
+    }
 }
 
 function get_oauth_token ()

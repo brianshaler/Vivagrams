@@ -303,12 +303,18 @@ class Fal_front
      *
      * @return the registration form view HTML output
      */
-    function register()
+    function register($ajax = false)
     {	
     	//if users are not allowed to register
         if (!$this->CI->config->item('FAL_allow_user_registration'))
         {
-        	redirect('', 'location');
+          if ($ajax)
+          {
+            return false;
+          } else
+          {
+        	  redirect('', 'location');
+      	  }
         }
         //if they are allowed to register
         else
@@ -352,14 +358,26 @@ class Fal_front
 			//normal registration with e-mail validation
 			if (!$this->CI->config->item('FAL_register_direct'))
 			{
+			  if ($ajax)
+			  {
+			    return true;
+		    } else
+		    {
 			    return $this->CI->load->view($this->CI->config->item('FAL_register_success_view'), $data, TRUE);
+		    }
 			}
 			//direct registration
 			else
 			{
 			    $this->CI->freakauth_light->login();
 			    //echo "Are you logged in?";
-			    redirect('welcome', 'location');
+			    if ($ajax)
+			    {
+			      return true;
+		      } else
+		      {
+			      redirect('welcome', 'location');
+		      }
 			    //redirect('sessions/first_login', 'location');
 			}
 			//$this->CI->output->enable_profiler(TRUE);
@@ -384,7 +402,13 @@ class Fal_front
 		       
 	        //displays the view
 	        $data['heading'] = $this->CI->lang->line('FAL_register_label');
-			return $this->CI->load->view('forms/register', $data, TRUE);
+	    if ($ajax)
+	    {
+	      return false;
+      } else
+      {
+			  return $this->CI->load->view('forms/register', $data, TRUE);
+		  }
 			//return $this->CI->load->view($this->CI->config->item('FAL_register_view'), $data, TRUE);
 			
 			//$this->CI->output->enable_profiler(TRUE);
@@ -588,7 +612,7 @@ class Fal_front
             $msg = $this->CI->lang->line('FAL_change_password_success');
             flashMsg($msg);
                        
-			redirect('', 'location');
+			      redirect('', 'location');
         }
        
         //else display the initial change password form
