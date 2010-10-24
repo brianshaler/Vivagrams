@@ -21,7 +21,7 @@ class Plan_Model extends Model {
     $this->db->where('user_id', intval($user_id));
     $query = $this->db->get('plans');
     
-    $plan = $query->row();
+    $plan = $query->row_array();
     
     return $plan;
   }
@@ -31,7 +31,7 @@ class Plan_Model extends Model {
     $this->db->where('plan_id', intval($plan_id));
     $query = $this->db->get('plans');
     
-    $plan = $query->row();
+    $plan = $query->row_array();
     
     return $plan;
   }
