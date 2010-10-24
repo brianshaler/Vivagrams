@@ -6,6 +6,16 @@ class Plan_Model extends Model {
 	{
 	    parent::Model();
 	}
+	
+	function get_plan_by_user_id ($user_id)
+	{
+    $this->db->where('user_id', $user_id);
+    $query = $this->db->get('activity');
+    
+    $plan = $query->row();
+    
+    return $plan;
+  }
 }
 
 ?>
