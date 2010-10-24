@@ -12,9 +12,9 @@
 		PRIMARY KEY (`message_id`)
 	*/
 
-class Message_Model extends Model {
+class Plan_Model extends Model {
 
-	function Message_Model()
+	function Plan_Model()
 	{
 		parent::Model();
 	}
