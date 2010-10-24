@@ -25,9 +25,7 @@
 												'gram_id' => intval($data['gram_id']),
 												'message' => $data['message'],
 												'send' => $data['send'],
-												'sent' => $data['sent'],
-												'response' => $data['response'],
-												'response_text' => $data['response_text'])); 
+												'sent' => $data['sent'])); 
 			return $this->db->insert_id();
 		}
 		
@@ -58,7 +56,6 @@
 			$query = $this->db->get('messages');
 			$messages = array();
 			foreach ($query->result_array() as $row)
-			{
 				$messages[] = $row;
 			}
 			return $messages;
