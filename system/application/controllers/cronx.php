@@ -14,6 +14,7 @@ class Cronx extends Controller {
         // Load models
         $this->load->model('Gram_Model', '', TRUE);
         $this->load->model('Message_Model', '', TRUE);
+
         // Constants
         define('INTERVAL', 15); // in minutes
         define('MINUTES', 60); // seconds per minute
@@ -26,7 +27,6 @@ class Cronx extends Controller {
 
         // Calculate current time and start time in seconds
         $time = $hour*HOURS + $minute*MINUTES + $second;
-        $time = 8 * 3600; // for testing
         $start_time = $time - INTERVAL*MINUTES;
 
         // Dealing with cron just past midnight -- need to add total seconds
@@ -39,7 +39,6 @@ class Cronx extends Controller {
         //$grams = $this->Gram_Model->get_grams_by_time_frame($time-$interval*MINUTES, $time);
         $grams = $this->Gram_Model->get_grams_by_time_frame($start_time, $time);
 
-        var_dump($grams);
         // Need time from midnight, as gram time isn't date sensitive
         $midnight_time = strtotime(date('n/j/Y', time()));
 
