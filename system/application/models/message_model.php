@@ -11,6 +11,7 @@
 		`response_text` varchar(140) NOT NULL,
 		PRIMARY KEY (`message_id`)
 	*/
+	
 	class Message_Model extends Model {
 
 		function Message_Model()
@@ -20,14 +21,13 @@
 		
 		function create_message ($data)
 		{
-			$this->db->insert('messages', array( 'message_id' => intval($data['message_id']),
-													'user_id' => intval($data['user_id']),
-													'gram_id' => intval($data['gram_id']),
-													'message' => $data['message'],
-													'send' => $data['send'],
-													'sent' => $data['sent'],
-													'response' => $data['response'],
-													'response_text' => $data['response_text'])); 
+			$this->db->insert('messages', array('user_id' => intval($data['user_id']),
+												'gram_id' => intval($data['gram_id']),
+												'message' => $data['message'],
+												'send' => $data['send'],
+												'sent' => $data['sent'],
+												'response' => $data['response'],
+												'response_text' => $data['response_text'])); 
 			return $this->db->insert_id();
 		}
 		
