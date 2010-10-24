@@ -16,6 +16,12 @@ class Plan_Model extends Model {
     
     return $plan;
   }
+  
+  function create_plan ($data)
+  {
+    $this->db->insert('plan', array('user_id'=>$data['user_id'])); 
+    return $this->db->insert_id();
+  }
 }
 
 ?>
