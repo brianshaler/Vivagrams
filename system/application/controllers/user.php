@@ -31,9 +31,9 @@ class User extends Controller
       $data['contact_count'] = $this->User_Model->count_contacts($user['id']);
       $data['iscontact'] = $this->User_Model->is_contact(getUserProperty('id'), $user['id']);
       
-      $this->load->view('pages/header', $header_info);
+      $this->load->view('templates/header', $header_info);
   		$this->load->view('user/viewuser', $data);
-  		$this->load->view('pages/footer');
+  		$this->load->view('templates/footer');
     }
     
     function profile()
@@ -52,9 +52,9 @@ class User extends Controller
         $data = array();
         $data['tags'] = "";
         
-        $this->load->view('pages/header');
+        $this->load->view('templates/header');
 		$this->load->view('profile', $data);
-		$this->load->view('pages/footer');
+		$this->load->view('templates/footer');
     }
     
     function update()
@@ -142,9 +142,9 @@ class User extends Controller
         
         $data['errors'] = $this->errors;
         
-		$this->load->view('pages/header', $header_info);
+		$this->load->view('templates/header', $header_info);
 		$this->load->view('user/preferences', $data);
-		$this->load->view('pages/footer');
+		$this->load->view('templates/footer');
     }
     
     function _process_profile()

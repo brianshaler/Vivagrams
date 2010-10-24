@@ -11,16 +11,16 @@ class Home extends Controller {
 	
 	function index()
 	{
-		$this->load->view('pages/header');
+		$this->load->view('templates/header');
 		if (!isValidUser())
 		{
     	$data['fal'] = $this->fal_front->register();
-      $this->load->view('pages/home', $data);
+      $this->load->view('templates/home', $data);
     } else
     {
         $this->load->view('user/user_home');
     }
-		$this->load->view('pages/footer');
+		$this->load->view('templates/footer');
 	}
 	
 	function handler()
@@ -37,9 +37,9 @@ class Home extends Controller {
     /**/
     
     header("HTTP/1.1 404 Not Found");
-	  $this->load->view('pages/header');
+	  $this->load->view('templates/header');
     $this->load->view('errors/notfound');
-	  $this->load->view('pages/footer');
+	  $this->load->view('templates/footer');
   }
 }
 

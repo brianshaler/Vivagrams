@@ -54,18 +54,18 @@ class Sessions extends Controller
     {	    	
     	$data['fal'] = $this->fal_front->login();
     	
-    	$this->load->view('pages/header', $data);
+    	$this->load->view('templates/header', $data);
     	$this->load->view('forms/login', $data);
-    	$this->load->view('pages/footer', $data);
+    	$this->load->view('templates/footer', $data);
     }
     function first_login()
     {	    	
     	$data['fal'] = $this->fal_front->login();
     	$data['message'] = "You have successfully registered! Go ahead and log in!";
     	
-    	$this->load->view('pages/header', $data);
+    	$this->load->view('templates/header', $data);
     	$this->load->view('forms/login', $data);
-    	$this->load->view('pages/footer', $data);
+    	$this->load->view('templates/footer', $data);
     }
 
     // --------------------------------------------------------------------
@@ -90,9 +90,9 @@ class Sessions extends Controller
     {	        
     	$data['fal'] = $this->fal_front->register();
     	
-    	$this->load->view('pages/header', $data);
+    	$this->load->view('templates/header', $data);
     	$this->load->view('forms/register', $data);
-    	$this->load->view('pages/footer', $data);
+    	$this->load->view('templates/footer', $data);
     }
     
     // --------------------------------------------------------------------
@@ -117,9 +117,9 @@ class Sessions extends Controller
     {	
     	$data['fal'] = $this->fal_front->forgotten_password();
     	
-    	$this->load->view('pages/header', $data);
+    	$this->load->view('templates/header', $data);
     	$this->load->view('forgotten_password', $data);
-    	$this->load->view('pages/footer', $data);
+    	$this->load->view('templates/footer', $data);
     }
     
 	// --------------------------------------------------------------------

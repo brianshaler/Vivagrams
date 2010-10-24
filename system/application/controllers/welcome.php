@@ -13,9 +13,9 @@ class Welcome extends Controller {
 	{
 		if (isValidUser())
 		{
-    		$this->load->view('pages/header');
-            $this->load->view('pages/welcome');
-    		$this->load->view('pages/footer');
+    		$this->load->view('templates/header');
+            $this->load->view('templates/welcome');
+    		$this->load->view('templates/footer');
 		} else
 		{
 		    redirect('', 'location');
