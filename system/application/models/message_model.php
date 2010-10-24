@@ -64,6 +64,12 @@ class Plan_Model extends Model {
 		}
 		return $messages;
 	}
+
+	function get_unsent_messages_by_user_id ($user_id)
+	{
+		$this->db->get_messages_by_user_id($user_id);
+		$this->db->
+	}
 	
 	function update_message ($message_id, $data)
 	{
