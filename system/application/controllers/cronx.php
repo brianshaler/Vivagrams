@@ -48,8 +48,8 @@ class Cronx extends Controller {
             $this->Message_Model->create_message(array('user_id' => 1,
                                                        'message' => $gram['message'], 
                                                        'gram_id' => $gram['gram_id'], 
-                                                       'send' => date('Y-m-d H:i:s', $gram_time_with_date),
-                                                       'sent' => date('Y-m-d H:i:s'),
+                                                       //'send' => date('Y-m-d H:i:s', $gram_time_with_date),
+                                                       'send' => date('Y-m-d H:i:s'),
                                                    ));
         }
 

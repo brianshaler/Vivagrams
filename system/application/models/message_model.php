@@ -24,8 +24,7 @@
 			$this->db->insert('messages', array('user_id' => intval($data['user_id']),
 												'gram_id' => intval($data['gram_id']),
 												'message' => $data['message'],
-												'send' => $data['send'],
-												'sent' => $data['sent'])); 
+												'send' => $data['send'])); 
 			return $this->db->insert_id();
 		}
 		
