@@ -31,6 +31,13 @@ class Sessions extends Controller
         parent::Controller();
         
         $this->load->library('FAL_front', 'fal_front');
+    		$this->load->helper('vivagrams');
+    		$this->load->helper('oauth');
+    }
+    
+    function twitter_oauth ()
+    {
+      redirect(oauth_url(), 'location');
     }
 	
     // --------------------------------------------------------------------
@@ -54,6 +61,8 @@ class Sessions extends Controller
     {	    	
     	$data['fal'] = $this->fal_front->login();
     	
+    	redirect('', 'location');
+    	
     	$this->load->view('templates/header', $data);
     	$this->load->view('forms/login', $data);
     	$this->load->view('templates/footer', $data);
@@ -62,6 +71,8 @@ class Sessions extends Controller
     {	    	
     	$data['fal'] = $this->fal_front->login();
     	$data['message'] = "You have successfully registered! Go ahead and log in!";
+    	
+    	redirect('', 'location');
     	
     	$this->load->view('templates/header', $data);
     	$this->load->view('forms/login', $data);
@@ -89,6 +100,9 @@ class Sessions extends Controller
     function register()
     {	        
     	$data['fal'] = $this->fal_front->register();
+    	echo "<pre>" . print_r($data, true) . "</pre>";
+    	
+    	redirect('', 'location');
     	
     	$this->load->view('templates/header', $data);
     	$this->load->view('forms/register', $data);

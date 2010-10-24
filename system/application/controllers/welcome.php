@@ -11,6 +11,7 @@ class Welcome extends Controller {
 	
 	function index()
 	{
+	  log_message('error', 'test');
 		if (isValidUser())
 		{
     		$this->load->view('templates/header');

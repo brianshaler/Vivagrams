@@ -35,12 +35,12 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
             			    <a href="/sessions/logout">Log out</a>
                 		<? } else { ?>
                             <?=form_open("sessions/login", array('id' => 'login_form'))?>
-                		        Member login:
+                		        Log in:
                 				<?=form_input(array('name'=>'user_name', 
                                                         'id'=>'user_name',
                                                         'maxlength'=>'30', 
                                                         'size'=>'30',
-                                                        'value'=>'user name',
+                                                        'value'=>'phone',
                                                         'style'=>'width:130px',
                                                         'class'=>'textfield'))?>
 
@@ -57,7 +57,7 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
                                                         'value'=>$this->lang->line('FAL_login_label')))?>&nbsp;&nbsp;
 
                                 <script type="text/javascript">
-                                                		$("#user_name").focus(function () { if (this.value == "user name") {this.value = "";} });
+                                                		$("#user_name").focus(function () { if (this.value == "phone") {this.value = "";} });
                                                 		$("#password").focus(function () { if (this.value == "password") {this.value = "";} });
                                 </script>
                 			<?=form_close()?>

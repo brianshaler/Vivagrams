@@ -222,11 +222,5 @@ class User extends Controller
           //echo "FAIL!<pre>".print_r($this->errors, true)."</pre>";
       }
     }
-    
-    function hashme ()
-    {
-        $str = $this->uri->segment(3);
-        echo $this->freakauth_light->_encode($str);
-    }
 }
 ?>

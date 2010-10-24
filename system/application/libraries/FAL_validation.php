@@ -471,7 +471,7 @@ class FAL_validation extends CI_Validation
      * @param unknown_type $expression
      * @return boolean
      */
-    function is_valid_text($callback, $value, $min, $max, $invalid_message = null, $expression = '/^([a-z0-9])([a-z0-9_\-])*$/ix')
+    function is_valid_text($callback, $value, $min, $max, $invalid_message = null, $expression = '/^([@a-z0-9])([a-z0-9_\-,])*$/ix')
 	{
 	    $message = '';
 	    if ((strlen($value) < $min) ||

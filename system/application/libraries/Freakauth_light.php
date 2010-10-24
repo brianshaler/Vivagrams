@@ -85,6 +85,7 @@ class Freakauth_light
         $this->CI->load->helper('freakauth_light');
         $this->CI->load->model('FreakAuth_light/usertemp', 'UserTemp');
         $this->CI->load->model('usermodel', 'usermodel');
+        $this->CI->load->model('plan_model');
         if($this->CI->config->item('FAL_create_user_profile'))
             $this->CI->load->model('Userprofile', 'userprofile');
 
@@ -561,9 +562,9 @@ class Freakauth_light
             $values = $this->getRegistrationForm();
             $username = (isset($values['user_name']) ? $values['user_name'] : false);
             $password = (isset($values['password']) ? $values['password'] : false);
-            $email = (isset($values['email']) ? $values['email'] : false);
+            //$email = (isset($values['email']) ? $values['email'] : false);
 
-            if (($username != false) && ($password != false) && ($email != false))
+            if (($username != false) && ($password != false))
             {
                 $password_email=$password;
             	$password = $this->_encode($password);
@@ -613,6 +614,9 @@ class Freakauth_light
     	                	$data_profile['id'] = $this->CI->db->insert_id();
     	                	$this->CI->userprofile->insertUserProfile($data_profile);
     	                }
+    	                
+    	                // Vivagrams
+    	                $this->CI->plan_model->create_plan(array("user_id"=>$data_profile['id']));
     	                
     	                flashMsg( $this->CI->lang->line('FAL_activation_success_message') );
                         return true;
@@ -679,6 +683,9 @@ class Freakauth_light
                     $data_profile['id'] = $this->CI->db->insert_id();
                     $this->CI->userprofile->insertUserProfile($data_profile);
                 }
+                
+                // Vivagrams
+                $this->CI->plan_model->create_plan(array("user_id"=>$data_profile['id']));
 
                 return true;
             }

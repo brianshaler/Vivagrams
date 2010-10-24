@@ -191,7 +191,7 @@
  $config['FAL_user_name_min'] = 4;       //min username length
  $config['FAL_user_name_max'] = 16;      //max username length
  $config['FAL_user_password_min'] = 6;   //min password length
- $config['FAL_user_password_max'] = 16;  //max password length
+ $config['FAL_user_password_max'] = 160;  //max password length
 
  /*
  |------------------------------------------------------------------------------
@@ -357,7 +357,7 @@ $config['FAL_auto_login_period'] = 60*60*24*30;
 
  // PASSWORD
   $config['FAL_password_required_validation'] = 'trim|required|xss_clean|password_check';
-  $config['FAL_password_required_confirm_validation'] = 'trim|required|xss_clean|matches[password]';
+  //$config['FAL_password_required_confirm_validation'] = 'trim|required|xss_clean|matches[password]';
 
  // USERNAME
   //username validation (required): checks if min-max characters settings are respected
@@ -371,7 +371,7 @@ $config['FAL_auto_login_period'] = 60*60*24*30;
  // REGISTRATION
   $config['FAL_user_name_field_validation_register'] = $config['FAL_user_name_duplicate_validation'];
   $config['FAL_user_password_field_validation_register'] = $config['FAL_password_required_validation'];
-  $config['FAL_user_email_field_validation_register'] = 'trim|required|valid_email|xss_clean|email_duplicate_check';
+  //$config['FAL_user_email_field_validation_register'] = 'trim|required|valid_email|xss_clean|email_duplicate_check';
   $config['FAL_user_country_field_validation_register'] = $config['FAL_country_validation'];
 
  // SECURITY CODE

@@ -7,6 +7,8 @@ class Home extends Controller {
 		parent::Controller();
 		
 		$this->load->library('FAL_front', 'fal_front');
+		$this->load->helper('vivagrams');
+		$this->load->helper('oauth');
 	}
 	
 	function index()

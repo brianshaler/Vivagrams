@@ -316,14 +316,14 @@ class Fal_front
             //sets the necessary form fields
             $fields['user_name'] = $this->CI->lang->line('FAL_user_name_label');
             $fields['password'] = $this->CI->lang->line('FAL_user_password_label');
-            $fields['password_confirm'] = $this->CI->lang->line('FAL_user_password_confirm_label');
-            $fields['email'] = $this->CI->lang->line('FAL_user_email_label');
+            //$fields['password_confirm'] = $this->CI->lang->line('FAL_user_password_confirm_label');
+            //$fields['email'] = $this->CI->lang->line('FAL_user_email_label');
            
             //set validation rules
             $rules['user_name'] = $this->CI->config->item('FAL_user_name_field_validation_register');
             $rules['password'] = $this->CI->config->item('FAL_user_password_field_validation_register');
-            $rules['password_confirm'] = $this->CI->config->item('FAL_password_required_confirm_validation')."|matches[".'password'."]";
-            $rules['email'] = $this->CI->config->item('FAL_user_email_field_validation_register');
+            //$rules['password_confirm'] = $this->CI->config->item('FAL_password_required_confirm_validation')."|matches[".'password'."]";
+            //$rules['email'] = $this->CI->config->item('FAL_user_email_field_validation_register');
        
         //do we also want to know the user country?
         if ($this->CI->config->item('FAL_use_country'))
@@ -344,7 +344,7 @@ class Fal_front
         
         $this->CI->fal_validation->set_fields($fields);
         $this->CI->fal_validation->set_rules($rules);
-       
+        
         //if everything went ok 
         if ($this->CI->fal_validation->run() && $this->CI->freakauth_light->register())
         {

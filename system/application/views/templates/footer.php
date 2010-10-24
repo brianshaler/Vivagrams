@@ -1,6 +1,6 @@
 
         <div id="footer" style="position: relative">
-        	Vivagrams &copy; 2010
+        	<!-- Vivagrams &copy; 2010 -->
         </div>
     </div> <!-- #content -->
 
