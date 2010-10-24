@@ -1,0 +1,176 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Sans Serif;
+	font-size: 12px;
+	line-height: 160%;
+	background-color: #F4F4F4;
+	color: #000000;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border: 0;
+}
+
+a:link, a:active, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 0 0 1em 0;
+	line-height: 1.4em;
+}
+
+#all {
+	text-align: center;
+}
+
+#content {
+	width: 940px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+#header {
+	margin-bottom: 24px;
+	border-bottom: solid 2px #666666;
+}
+
+#logo {
+	
+}
+
+.single-column {
+	margin: 0px 20px;
+}
+.left-column {
+	float: left;
+	margin-left: 20px;
+	margin-right: 40px;
+	width: 430px;
+}
+.right-column {
+	float: left;
+	width: 430px;
+}
+
+.bigform .textfield {
+	font-size: 24px;
+	width: 430px;
+	margin-bottom: 12px;
+}
+
+.bigform .button {
+	font-size: 24px;
+}
+
+
+.userProfileImage {
+	margin: 0px 15px 15px 0px;
+	padding: 10px;
+	float: left;
+	border: solid 2px #BBC6E4;
+	background-color: #F2F2F5;
+}
+.userProfileImage {
+	text-align: center;
+	width: 64px;
+	height: 64px;
+}
+.userSmall {
+	margin: 0px 10px 10px 0px;
+	padding: 0px;
+	float: left;
+	border: solid 2px #F2F2F5;
+	background-color: #F2F2F5;
+	width: 68px;
+	height: 68px;
+}
+.userSmallContact {
+	border: solid 2px #068828;
+}
+.userThumb {
+	display: block;
+	float: left;
+	border: solid 1px #F2F2F5;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	margin: 0px 6px 6px 0px;
+}
+.userThumbContact {
+	border: solid 1px #068828;
+}
+.userIcon {
+	display: block;
+	float: left;
+	border: solid 1px #F2F2F5;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	margin: 0px 4px 4px 0px;
+}
+.userIconContact {
+	border: solid 1px #068828;
+}
+
+h1, h2, h3, h4 {
+	padding: 0px;
+	font-weight: normal;
+	color: #444444;
+	line-height: 100%;
+}
+
+h1 {
+	margin: 0px 0px 18px;
+	font-size: 24px;
+}
+
+h2 {
+	margin: 0px 0px 12px;
+	font-size: 18px;
+	line-height: 1.1em;
+}
+
+h3 {
+	margin: 0px 0px 8px;
+	font-size: 16px;
+}
+
+h4 {
+	margin: 0px 0px 4px;
+	font-size: 14px;
+}
+
+h1.nomargin {
+	margin: 0px;
+}
+
+.error {
+	font-size: 12px;
+	color: #AA0000;
+}
+
+.clear {
+	clear: left;
+}
+
+
+#footer {
+	color: #666666;
+	clear: both;
+	text-align: center;
+	padding: 5px 50px 8px;
+	font-style: italic;
+	font-size: 12px;
+}
