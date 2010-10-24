@@ -108,6 +108,10 @@ class Sessions extends Controller
     	$this->load->view('templates/footer', $data);
     }
     
+    /**
+     * /sessions/register_ajax
+     * {"message":"success"} is good
+     */
     function register_ajax()
     {
       $success = $this->fal_front->register(true);
