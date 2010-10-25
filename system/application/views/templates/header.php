@@ -19,7 +19,7 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 		
 		<script type="text/javascript">
 		$(document).ready(function(){
-			$('.jQClick').click(function(event)){
+			$('.jQClick').click(function(){
 				var pos = $('.jQClick').offset();
 				var width = $('.jQClick').width();
 				
