@@ -10,13 +10,13 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Vivagrams :: Healthy Habits for Happiness</title>
 		<!--<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />-->
-		<link type="text/css" href="http://localhost:8888/Vivagrams/public/css/style.css" rel="stylesheet" />
 		
 		<style type="text/css">
 		#floating-div {position: absolute; height:100px; width: 200px; background:#009900; top:  10px; right:60px;}
 		</style> 
 		
 		
+		<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />
 		<?
 	        if (isset($page_description)) { echo "<meta name=\"description\" content=\"$page_description\" />\n"; }
 	        if (isset($page_keywords)) { echo "<meta name=\"keywords\" content=\"$page_keywords\" />\n"; }
@@ -44,9 +44,9 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	  <div class="logo">
 	    <h1 class="ir">Vivagrams</h1>
 	  </div>
-	  <div class="right" style="display: none" >
-	    <a href="#" class="CronosProBold">Log in</a> | 
-		<a href="#" class="CronosProBold jQClick">Get started</a>
+	  <div class="right">
+	    <a href="#" class="CronosProBold jQClick">Log in</a> | 
+		<a href="#" class="CronosProBold">Get started</a>
 	  </div>
 	</div>
 	<!-- HEADER, LOGIN, and REGISTRATION -->
@@ -77,6 +77,7 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	            			    <a href="/user/settings">Settings</a> | 
 	            			    <a href="/sessions/logout">Log out</a>
 	                		<? } else { ?>
+                                <div class="jQClick" style="display: none">
 	                            <?=form_open("sessions/login", array('id' => 'login_form'))?>
 	                		        Log in:
 	                				<?=form_input(array('name'=>'user_name', 
@@ -98,6 +99,7 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	                            	<?=form_submit(array('name'=>'login', 
 	                                                        'id'=>'login', 
 	                                                        'value'=>$this->lang->line('FAL_login_label')))?>&nbsp;&nbsp;
+                                    </div>
 
 	                                <script type="text/javascript">
 	                                                		$("#user_name").focus(function () { if (this.value == "phone") {this.value = "";} });
