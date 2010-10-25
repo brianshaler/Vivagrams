@@ -20,7 +20,12 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 		<script type="text/javascript">
 		$(document).ready(function(){
 			$('.jQClick').click(function(event)){
-				alert("You just clicked");
+				var pos = $('.jQClick').offset();
+				var width = $('.jQClick').width();
+				
+				$('').css({"left": (pos.left+width)+"px", "top": pos.top+"px"});
+				
+				$('.jQClick').show();
 			});
 		});
 		</script>
@@ -33,7 +38,7 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	  <div class="logo">
 	    <h1 class="ir">Vivagrams</h1>
 	  </div>
-	  <div class="right">
+	  <div class="right" style="display: none" >
 	    <a href="#" class="CronosProBold">Log in</a> | 
 		<a href="#" class="CronosProBold jQClick">Get started</a>
 	  </div>
