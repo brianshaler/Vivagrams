@@ -48,7 +48,7 @@ function get_screen_name ()
 {
   global $twitterObj;
   $creds = $twitterObj->get('/account/verify_credentials.json');
-  echo $creds->responseText;
+  //echo $creds->responseText;
   $obj = json_decode($creds->responseText, true);
   return $obj["screen_name"];
 }

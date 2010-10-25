@@ -60,7 +60,7 @@ class Twitter_oauth extends Controller {
     
     set_oauth_usertoken($token, $tokensecret);
     
-    echo get_screen_name();
+    //echo get_screen_name();
   }
 }
 
