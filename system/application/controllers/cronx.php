@@ -60,10 +60,20 @@ class Cronx extends Controller {
         $unsent_messages = $this->Message_Model->get_unsent_messages(date('Y-m-d H:i:s'));
         var_dump($unsent_messages);
 
-        $this->Message_Model->send_message($message[0]['message_id']);
-        //foreach($unsent_messages as $message) {
-            //$this->Message_Model->send_message($message['message_id']);
-        //}
+        $this->Message_Model->send_message($unsent_messages[0]['message_id']);
+        foreach($unsent_messages as $message) {
+            // Send to Tropo
+            //$user = urlencode($message['user_name']);
+            $msg = urlencode($message['message']);
+            $ch = curl_init();
+            //$url = "http://api.tropo.com/1.0/sessions?action=create&token=d61d3c07322a2541ae6006f4c74900777b23d859e7aefd19e7c9141691d24f80312a5ced9ac42d688c0f1921&messageto$user=&mynetwork=SMS&outboundmessage=$msg";
+            //curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            //$str = curl_exec($ch);
+            curl_close($ch);
+
+            $this->Message_Model->send_message($message['message_id']);
+        }
 
 
     }

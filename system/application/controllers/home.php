@@ -24,9 +24,9 @@ class Home extends Controller {
     } else
     {
       $plan = $this->Plan_Model->get_plan_by_user_id(getUserProperty('id'));
-      echo "<pre>Plan: ".print_r($plan, true)."</pre>\n";
+      //echo "<pre>Plan: ".print_r($plan, true)."</pre>\n";
       $grams = $this->Gram_Model->get_grams_by_plan_id($plan["plan_id"]);
-      echo "<pre>Grams: ".print_r($grams, true)."</pre>\n";
+      //echo "<pre>Grams: ".print_r($grams, true)."</pre>\n";
       
       $this->load->view('dashboard/main', array("grams"=>$grams));
     }

@@ -1861,3 +1861,1087 @@ ERROR - 2010-10-24 15:08:29 --> Severity: 8192  --> Function set_magic_quotes_ru
 ERROR - 2010-10-24 15:08:29 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
 ERROR - 2010-10-24 15:08:29 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
 ERROR - 2010-10-24 15:08:29 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:09:14 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:09:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:09:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:07 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:07 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:07 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:07 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:09 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:11 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:11 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:11 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:11 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:15 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:15 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:49 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:52 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:10:52 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:10:52 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:10:52 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:10:52 --> Severity: Notice  --> Undefined property: Api::$Gram_Model /Library/WebServer/Documents/_sites/vivagrams/system/application/controllers/api.php 53
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:42 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:46 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:51 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:56 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:56 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:56 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:56 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:58 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:11:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:12:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:12:45 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:12:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:12:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:12:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:12:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:13:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:13:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:13:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:13:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:13:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:25 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:33 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:33 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:33 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:33 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:52 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:52 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:53 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:53 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:54 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:55 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:14:58 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:14:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:14:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:14:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:00 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:01 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:06 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:09 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:10 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:10 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:11 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:34 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:15:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:17:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:17:42 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:17:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:17:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:17:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:17:43 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:17:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:17:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:17:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:17:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:30 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:31 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:33 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:33 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:37 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:38 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:42 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:56 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:56 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:56 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:56 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:57 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:22:58 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:22:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:22:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:22:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:23:01 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:23:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:23:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:23:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:23:07 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:23:11 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:18 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:20 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:24:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:24:25 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:24:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:18 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:18 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:20 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:23 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:36 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:37 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:37 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:38 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:38 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:25:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:14 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:16 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:17 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:17 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:20 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:20 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:23 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:24 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:25 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:26 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:27 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:28 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:26:30 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:26:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:26:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:26:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:19 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:57 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:31:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:32:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:33:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:33:54 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:33:55 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:33:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:33:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:33:55 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:33:58 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:33:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:33:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:33:58 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:35:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:40:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:43:57 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:43:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:43:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:43:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:43:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:43:59 --> Severity: Notice  --> Undefined variable: plan_id /Library/WebServer/Documents/_sites/vivagrams/system/application/controllers/api.php 55
+ERROR - 2010-10-24 16:45:35 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:45:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:45:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:45:35 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:45:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:46:36 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:46:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:47:10 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:47:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:47:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:47:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:47:38 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:47:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:47:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:47:38 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:47:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:47:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:47:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:47:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:47:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:47:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:47:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:47:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:47:44 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:47:44 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:47:44 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:47:44 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:47:45 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:47:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:47:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:47:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:48:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:48:21 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:48:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:48:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:48:21 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:48:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:49:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:49:46 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:49:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:49:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:49:46 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:41 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:42 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:43 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:43 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:47 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:47 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:51:48 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:51:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:51:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:51:48 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:56:30 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:56:32 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:56:32 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:56:32 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:56:32 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:56:39 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:56:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:56:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:56:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:56:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:57:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:57:53 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:57:53 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:57:53 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:57:53 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:57:59 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:57:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:57:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:57:59 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:59:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:59:08 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:59:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:59:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:59:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:59:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:59:10 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:59:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:59:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:59:10 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 16:59:11 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 16:59:11 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 16:59:11 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 16:59:11 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:03:06 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:03:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:03:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:03:06 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:03:07 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:03:07 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:03:07 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:03:07 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:03:08 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:03:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:03:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:03:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:03:08 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:03:08 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:03:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:03:09 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:04:40 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:04:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:04:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:04:40 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:04:45 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:04:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:04:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:04:45 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:04:51 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:04:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:04:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:04:51 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:06:01 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:06:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:06:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:06:01 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:07:00 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Function set_magic_quotes_runtime() is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/codeigniter/CodeIgniter.php 60
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/libraries/Loader.php 255
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/application/helpers/freakauth_light_helper.php 33
+ERROR - 2010-10-24 17:08:22 --> Severity: 8192  --> Assigning the return value of new by reference is deprecated /Library/WebServer/Documents/_sites/vivagrams/system/database/DB.php 133
