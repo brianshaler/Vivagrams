@@ -39,8 +39,8 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	    <h1 class="ir">Vivagrams</h1>
 	  </div>
 	  <div class="right" style="display: none" >
-	    <a href="#" class="CronosProBold">Log in</a> | 
-		<a href="#" class="CronosProBold jQClick">Get started</a>
+	    <a href="#" class="CronosProBold jQClick">Log in</a> | 
+		<a href="#" class="CronosProBold">Get started</a>
 	  </div>
 	</div>
 	<!-- HEADER, LOGIN, and REGISTRATION -->
