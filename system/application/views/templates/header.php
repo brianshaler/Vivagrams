@@ -65,57 +65,8 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	<!-- MAIN CONTENT -->
 	<div id="main">
 	  <div class="wrapper">
-
-	  </div>
-	</div>
-	
-	
-	<div id="floating-div">
-	<? if (isValidUser()) { ?>
-	            			    Signed in as 
-	            			    <a href="/profile/<?=$user_name?>"><? echo (strlen($profile['display_name']) > 0 ? $profile['display_name'] : $user_name); ?></a> | 
-	            			    <a href="/user/settings">Settings</a> | 
-	            			    <a href="/sessions/logout">Log out</a>
-	                		<? } else { ?>
-                                <div class="jQClick" style="display: none">
-	                            <?=form_open("sessions/login", array('id' => 'login_form'))?>
-	                		        Log in:
-	                				<?=form_input(array('name'=>'user_name', 
-	                                                        'id'=>'user_name',
-	                                                        'maxlength'=>'30', 
-	                                                        'size'=>'30',
-	                                                        'value'=>'phone',
-	                                                        'style'=>'width:130px',
-	                                                        'class'=>'textfield'))?>
-
-	                				<?=form_password(array('name'=>'password', 
-	                                                        'id'=>'password',
-	                                                        'maxlength'=>'30', 
-	                                                        'size'=>'30',
-	                                                        'value'=>'password',
-	                                                        'style'=>'width:130px',
-	                                                        'class'=>'textfield'))?>
-
-	                            	<?=form_submit(array('name'=>'login', 
-	                                                        'id'=>'login', 
-	                                                        'value'=>$this->lang->line('FAL_login_label')))?>&nbsp;&nbsp;
-                                    </div>
-
-	                                <script type="text/javascript">
-	                                                		$("#user_name").focus(function () { if (this.value == "phone") {this.value = "";} });
-	                                                		$("#password").focus(function () { if (this.value == "password") {this.value = "";} });
-	                                </script>
-	                			<?=form_close()?>
-	                        <? } ?>
-	
-	</div>
 	
 	
 	
-	<!-- MAIN CONTENT -->
-
-
-
-
 
 		
