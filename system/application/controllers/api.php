@@ -14,6 +14,14 @@ class Api extends Controller
     $this->load->model('Gram_Model', '', TRUE);
 	}
 	
+  function response()
+  {
+          $msg = getvar("msg", "");
+          $m = "Message from " . $this->uri->segment(3) . ": " . $msg;
+          echo $m;
+          log_message('error', $m);
+  }
+  
 	function get()
 	{
     $action = strtolower($this->uri->segment(3));

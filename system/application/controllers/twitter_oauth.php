@@ -18,7 +18,7 @@ class Twitter_oauth extends Controller {
   	$data = array();
   	
 	  $token = get_oauth_token();
-	  echo "<pre>token: " . $token->oauth_token . "\ntoken secret: " . $token->oauth_token_secret . "</pre>\n";
+	  //echo "<pre>token: " . $token->oauth_token . "\ntoken secret: " . $token->oauth_token_secret . "</pre>\n";
 	  if ($token && $token->oauth_token && $token->oauth_token_secret)
 	  {
 	    // stuff
@@ -34,7 +34,7 @@ class Twitter_oauth extends Controller {
   	    $_POST["user_name"] = $user_name;
   	    $_POST["password"] = $password;
   	    $data['fal'] = $this->fal_front->login();
-  	    echo "User exists<br />";
+  	    //echo "User exists<br />";
       	
 	    } else
 	    {
@@ -43,12 +43,12 @@ class Twitter_oauth extends Controller {
   	    $_POST["user_name"] = $user_name;
   	    $_POST["password"] = $password;
       	$data['fal'] = $this->fal_front->register();
-  	    echo "User '$user_name' does not exist<br />\n";
-        echo "<pre>" . print_r($user, true) . "</pre>\n";
+  	    //echo "User '$user_name' does not exist<br />\n";
+        //echo "<pre>" . print_r($user, true) . "</pre>\n";
       }
     }
     
-    echo "<pre>" . print_r($data, true) . "</pre>";
+    //echo "<pre>" . print_r($data, true) . "</pre>";
     
     //redirect('', 'location');
 	}
