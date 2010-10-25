@@ -31,7 +31,9 @@
 		function get_message_by_message_id ($message_id)
 		{
 			$this->db->where('message_id', intval($message_id));
+			$this->db->join('user', 'user.id = messages.message_id');
 			$query = $this->db->get('messages');
+	    
 			$message = $query->row();
 			
 			return $message;
@@ -40,6 +42,7 @@
 		function get_messages_by_user_id ($user_id)
 		{
 			$this->db->where('user_id', intval($user_id));
+			$this->db->join('user', 'user.id = messages.message_id');
 			$query = $this->db->get('messages');
 			$messages = array();
 			foreach ($query->result_array() as $row)
@@ -52,6 +55,7 @@
 		function get_messages_by_gram_id ($gram_id)
 		{
 			$this->db->where('gram_id', intval($gram_id));
+			$this->db->join('user', 'user.id = messages.message_id');
 			$query = $this->db->get('messages');
 			$messages = array();
 			foreach ($query->result_array() as $row) {
@@ -64,6 +68,7 @@
 			$query = $this->db->get('messages');
 			$this->db->where('response', 0);
 			$this->db->where('send <', intval($end_time));
+			$this->db->join('user', 'user.id = messages.message_id');
 			$messages = array();
 			foreach ($query->result_array() as $row)
 			{
@@ -87,7 +92,7 @@
 		function delete_message ($message_id)
 		{
 			$this->db->where('message_id', intval($message_id));
-			$this->db->where('messages');
+			$this->db->delete('messages');
 		}
 		
 		function isValidDateTime($dateTime) 
