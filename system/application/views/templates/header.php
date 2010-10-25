@@ -5,22 +5,25 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 
 ?>
 
-	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	  <title>Vivagrams :: Healthy Habits for Happiness</title>
-	  <!--<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />-->
-	  <link type="text/css" href="http://localhost:8888/Vivagrams/public/css/style.css" rel="stylesheet" />
-	
-	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Vivagrams :: Healthy Habits for Happiness</title>
+		<!--<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />-->
+		<link type="text/css" href="http://localhost:8888/Vivagrams/public/css/style.css" rel="stylesheet" />
 		<?
 	        if (isset($page_description)) { echo "<meta name=\"description\" content=\"$page_description\" />\n"; }
 	        if (isset($page_keywords)) { echo "<meta name=\"keywords\" content=\"$page_keywords\" />\n"; }
 		?>
 	    <script src="<?=$base_url?>public/shared/js/jquery-latest.js" type="text/javascript"></script>
-	
-	
-	
+		
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.jQClick').click(function(event)){
+				alert("You just clicked");
+			});
+		});
+		</script>
 	</head>
 
 	<body>
@@ -31,7 +34,8 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	    <h1 class="ir">Vivagrams</h1>
 	  </div>
 	  <div class="right">
-	    <a href="#" class="CronosProBold">Log in</a> | <a href="#" class="CronosProBold">Get started</a>
+	    <a href="#" class="CronosProBold">Log in</a> | 
+		<a href="#" class="CronosProBold jQClick">Get started</a>
 	  </div>
 	</div>
 	<!-- HEADER, LOGIN, and REGISTRATION -->
