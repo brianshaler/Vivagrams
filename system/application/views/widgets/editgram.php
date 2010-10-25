@@ -45,7 +45,7 @@ if (!function_exists("pad_zero"))
     <option value="am"<? echo ($ampm == "am" ? " selected" : "") ?>>am</option>
     <option value="pm"<? echo ($ampm == "pm" ? " selected" : "") ?>>pm</option>
   </select>
-  <a href="#" onclick="return DeleteGram<?=$gram_id?>();">[x]</a>
+  <a href="#" onclick="return DeleteGram<?=$gram_id?>();" style="float: right;"><img src="/public/images/x.gif" border=0 /></a>
   <script>
   
   function DeleteGram<?=$gram_id?> () {

@@ -86,7 +86,6 @@ blockquote, q {
 .wrapper {
   width: 960px;
   margin: 0 auto;
-  overflow: auto;
 }
 
 .small-column {
@@ -248,3 +247,22 @@ textarea {
   background-color: #fff;
   border-color: #e7daa7;
 }
+
+/* DASHBOARD
+--------------------------------------------------- */
+.gram {
+  padding: 10px 14px;
+  background-color: #FAF8ED;
+  width: 705px;
+  height: 60px;
+  margin: 0px 0px 10px 0px;
+  font-size: 18px;
+}
+
+.gram input {
+  height: 28px;
+}
+
+
+
+

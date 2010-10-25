@@ -9,11 +9,11 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Vivagrams :: Healthy Habits for Happiness</title>
-		<!--<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />-->
 		
 		<style type="text/css">
-		#floating-div {position: absolute; height:100px; width: 200px; background:#009900; top:  10px; right:60px;}
-		</style> 
+		#popover { position: absolute; top: 50px; width: 321px; height: 149px; background-image: url('/public/images/popover.png'); display: none; }
+		#popover .jQClick {width: 321px; height: 149px;}
+		</style>
 		
 		
 		<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />
@@ -23,18 +23,29 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 		?>
 	    <script src="<?=$base_url?>public/shared/js/jquery-latest.js" type="text/javascript"></script>
 		
+		
+    <? if (!isValidUser()) { ?>
 		<script type="text/javascript">
-		$(document).ready(function(){
-			$('.jQClick').click(function(){
-				var pos = $('.jQClick').offset();
-				var width = $('.jQClick').width();
-				
-				$('').css({"left": (pos.left+width)+"px", "top": pos.top+"px"});
-				
-				$('.jQClick').show();
+      var xvals = [590, 660];
+      var popoverfollowing = 0;
+      
+		  $(document).ready(function(){
+			$('.headerLogin').click(function(e) {
+			  e.preventDefault();
+			  popoverfollowing = 0;
+			  UpdatePopoverPosition();
+				$('#popover').show();
+			});
+			$('.headerRegister').click(function(e) {
+			  e.preventDefault();
+			  popoverfollowing = 1;
+			  UpdatePopoverPosition();
+				$('#popover').show();
 			});
 		});
 		</script>
+    <? } ?>
+		
 	</head>
 
 	<body>
@@ -45,8 +56,8 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	    <h1 class="ir">Vivagrams</h1>
 	  </div>
 	  <div class="right">
-	    <a href="#" class="CronosProBold jQClick">Log in</a> | 
-		<a href="#" class="CronosProBold">Get started</a>
+	    <a href="#" class="CronosProBold headerLogin">Log in</a> | 
+		<a href="#" class="CronosProBold headerRegister">Get started</a>
 	  </div>
 	</div>
 	<!-- HEADER, LOGIN, and REGISTRATION -->
@@ -65,8 +76,8 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	<!-- MAIN CONTENT -->
 	<div id="main">
 	  <div class="wrapper">
-	
-	
-	
 
-		
+
+
+
+
