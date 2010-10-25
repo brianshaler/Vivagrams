@@ -11,6 +11,12 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 		<title>Vivagrams :: Healthy Habits for Happiness</title>
 		<!--<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />-->
 		<link type="text/css" href="http://localhost:8888/Vivagrams/public/css/style.css" rel="stylesheet" />
+		
+		<style type="text/css">
+		#floating-div {position: absolute; height:100px; width: 200px; background:#009900; top:  10px; right:60px;}
+		</style> 
+		
+		
 		<?
 	        if (isset($page_description)) { echo "<meta name=\"description\" content=\"$page_description\" />\n"; }
 	        if (isset($page_keywords)) { echo "<meta name=\"keywords\" content=\"$page_keywords\" />\n"; }
@@ -47,9 +53,24 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 
 	<!-- NAVIGATION -->
 	<div id="nav">
+	  <ul class="CronosProBold wrapper">
+	    <li><a href="#">Home</a></li>
+	    <li><a href="#">Features</a></li>
+	    <li><a href="#">About</a></li>
+	    <li><a href="#">Tour</a></li>
+	  </ul>
+	</div>
+	<!-- NAVIGATION -->
+
+	<!-- MAIN CONTENT -->
+	<div id="main">
+	  <div class="wrapper">
+
+	  </div>
+	</div>
 	
 	
-	
+	<div id="floating-div">
 	<? if (isValidUser()) { ?>
 	            			    Signed in as 
 	            			    <a href="/profile/<?=$user_name?>"><? echo (strlen($profile['display_name']) > 0 ? $profile['display_name'] : $user_name); ?></a> | 
@@ -85,24 +106,10 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	                			<?=form_close()?>
 	                        <? } ?>
 	
-	
-	
-	
-	  <ul class="CronosProBold wrapper">
-	    <li><a href="#">Home</a></li>
-	    <li><a href="#">Features</a></li>
-	    <li><a href="#">About</a></li>
-	    <li><a href="#">Tour</a></li>
-	  </ul>
 	</div>
-	<!-- NAVIGATION -->
-
-	<!-- MAIN CONTENT -->
-	<div id="main">
-	  <div class="wrapper">
-
-	  </div>
-	</div>
+	
+	
+	
 	<!-- MAIN CONTENT -->
 
 
