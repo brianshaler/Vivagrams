@@ -60,12 +60,10 @@
 			return $messages;
 		}
 
-		function get_unsent_messages_by_send_int_time ($start_send_int_time, $end_send_int_time)
-		{
-			$this->db->where('send >=', intval($start_send_int_time));
-			$this->db->where('send <', intval($end_send_int_time));
-			$this->db->where('sent', 0);
+		function get_unsent_messages($end_time) {
 			$query = $this->db->get('messages');
+			$this->db->where('response', 0);
+			$this->db->where('send <', intval($end_time));
 			$messages = array();
 			foreach ($query->result_array() as $row)
 			{
@@ -74,6 +72,11 @@
 			
 			return $messages;
 		}
+
+        function send_message($message_id) {
+			$this->db->where('message_id', intval($message_id));
+            $this->db->update('messages', array('sent' => date('Y-m-d H:i:s')));
+        }
 		
 		function update_message ($message_id, $data)
 		{

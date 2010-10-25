@@ -3,17 +3,17 @@
 class Cronx extends Controller {
     function __construct() {
         parent::Controller();
-        $this->process_queue();
 
+        // Load models
+        $this->load->model('Gram_Model', '', TRUE);
+        $this->load->model('Message_Model', '', TRUE);
     }
 
     function index() {
     }
     
-    function process_queue() {
-        // Load models
-        $this->load->model('Gram_Model', '', TRUE);
-        $this->load->model('Message_Model', '', TRUE);
+    // Create new messages from grams in last interval
+    function gram() {
 
         // Constants
         define('INTERVAL', 15); // in minutes
@@ -27,6 +27,7 @@ class Cronx extends Controller {
 
         // Calculate current time and start time in seconds
         $time = $hour*HOURS + $minute*MINUTES + $second;
+        $time = 8*HOURS;
         $start_time = $time - INTERVAL*MINUTES;
 
         // Dealing with cron just past midnight -- need to add total seconds
@@ -48,9 +49,22 @@ class Cronx extends Controller {
                                                        'message' => $gram['message'], 
                                                        'gram_id' => $gram['gram_id'], 
                                                        //'send' => date('Y-m-d H:i:s', $gram_time_with_date),
-                                                       'send' => date('Y-m-d H:i:s'),
+                                                       'send' => date('Y-m-d H:i:s')
                                                    ));
         }
+
+    }
+
+    // Send unsent messages
+    function message() {
+        $unsent_messages = $this->Message_Model->get_unsent_messages(date('Y-m-d H:i:s'));
+        var_dump($unsent_messages);
+
+        $this->Message_Model->send_message($message[0]['message_id']);
+        //foreach($unsent_messages as $message) {
+            //$this->Message_Model->send_message($message['message_id']);
+        //}
+
 
     }
 }
