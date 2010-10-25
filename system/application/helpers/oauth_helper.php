@@ -18,7 +18,7 @@ function oauth_url ()
 {
     try {
         $twitterObj = new EpiTwitter(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
-        $twitterObj->getAuthenticateUrl();
+        return $twitterObj->getAuthenticateUrl();
     } catch(EpiOAuthException $e) {
         return $e;
     }
