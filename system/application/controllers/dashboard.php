@@ -2,7 +2,7 @@
 
 class Dashboard extends Controller {
     
-	function Dashboard()
+	function Dashboard ()
 	{
 		parent::Controller();
 		

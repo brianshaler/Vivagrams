@@ -30,7 +30,7 @@
 			$this->db->where('gram_id', intval($gram_id));
 			$query = $this->db->get('grams');
 			
-			$gram = $query->row();
+			$gram = $query->row_array();
 			
 			return $gram;
 		}
