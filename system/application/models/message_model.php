@@ -68,7 +68,7 @@
 			$query = $this->db->get('messages');
 			$this->db->where('response', 0);
 			$this->db->where('send <', intval($end_time));
-			$this->db->join('user', 'user.id = messages.message_id');
+			$this->db->join('user', 'user.id = messages.user_id');
 			$messages = array();
 			foreach ($query->result_array() as $row)
 			{
