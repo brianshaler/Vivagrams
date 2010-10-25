@@ -51,16 +51,16 @@ blockquote, q {
 --------------------------------------------------- */
 @font-face {
   font-family: 'CronosPro';
-  src: url('../fonts/cronospro-semiboldcaptit-webfont.eot');
-  src: local('☺'), url('../fonts/cronospro-semiboldcaptit-webfont.woff') format('woff'), url('../fonts/cronospro-semiboldcaptit-webfont.ttf') format('truetype'), url('../fonts/cronospro-semiboldcaptit-webfont.svg#webfontJO5jgxv0') format('svg');
+  src: url('/public/fonts/cronospro-semiboldcaptit-webfont.eot');
+  src: local('☺'), url('/public/fonts/cronospro-semiboldcaptit-webfont.woff') format('woff'), url('/public/fonts/cronospro-semiboldcaptit-webfont.ttf') format('truetype'), url('/public/fonts/cronospro-semiboldcaptit-webfont.svg#webfontJO5jgxv0') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CronosProBold';
-  src: url('../fonts/cronospro-bold-webfont.eot');
-  src: local('☺'), url('../fonts/cronospro-bold-webfont.woff') format('woff'), url('../fonts/cronospro-bold-webfont.ttf') format('truetype'), url('../fonts/cronospro-bold-webfont.svg#webfontcJfWGzCt') format('svg');
+  src: url('/public/fonts/cronospro-bold-webfont.eot');
+  src: local('☺'), url('/public/fonts/cronospro-bold-webfont.woff') format('woff'), url('/public/fonts/cronospro-bold-webfont.ttf') format('truetype'), url('/public/fonts/cronospro-bold-webfont.svg#webfontcJfWGzCt') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -118,7 +118,7 @@ body {
 
 #head .logo {
   float: left;
-  background: url('../images/sm-logo.gif') no-repeat center left;
+  background: url('/public/images/sm-logo.gif') no-repeat center left;
   height: 150px;
   width: 360px;
 }
@@ -175,7 +175,7 @@ body {
 /* MAIN CONTENT
 --------------------------------------------------- */
 #main {
-  background: url('../images/bg-grad.gif') top repeat-x;
+  background: url('/public/images/bg-grad.gif') top repeat-x;
   height: 425px;
 }
 
@@ -205,20 +205,20 @@ body {
 /* PROMOS
 ---------------------------------------------------*/
 a#twitter {
-  background: url('../images/twitter.png') no-repeat left top;
+  background: url('/public/images/twitter.png') no-repeat left top;
   display: block;
   height: 14px;
   margin-bottom: 15px;
 }
 
 a#facebook {
-  background: url('../images/facebook.png') no-repeat left top;
+  background: url('/public/images/facebook.png') no-repeat left top;
   display: block;
   height: 17px;
 }
 
 #iphone-app a {
-  background: url('../images/app-store.png') no-repeat left top;
+  background: url('/public/images/app-store.png') no-repeat left top;
   display: block;
   height: 100px;
 }

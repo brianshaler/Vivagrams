@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://vg/";
+$config['base_url']	= "http://dev.vivagrams.com/";
 
 /*
 |--------------------------------------------------------------------------

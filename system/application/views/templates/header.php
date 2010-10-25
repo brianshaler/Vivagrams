@@ -10,7 +10,7 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Vivagrams :: Healthy Habits for Happiness</title>
 		<!--<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />-->
-		<link type="text/css" href="http://localhost:8888/Vivagrams/public/css/style.css" rel="stylesheet" />
+		<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />
 		<?
 	        if (isset($page_description)) { echo "<meta name=\"description\" content=\"$page_description\" />\n"; }
 	        if (isset($page_keywords)) { echo "<meta name=\"keywords\" content=\"$page_keywords\" />\n"; }
