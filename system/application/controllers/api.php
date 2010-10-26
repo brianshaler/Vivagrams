@@ -12,14 +12,38 @@ class Api extends Controller
     $this->load->model('User_Model', '', TRUE);
     $this->load->model('Plan_Model', '', TRUE);
     $this->load->model('Gram_Model', '', TRUE);
+    $this->load->model('Message_Model', '', TRUE);
 	}
 	
   function response()
   {
-          $msg = getvar("msg", "");
-          $m = "Message from " . $this->uri->segment(3) . ": " . $msg;
-          echo $m;
-          log_message('error', $m);
+    $sender = $this->uri->segment(3);
+    $msg = getvar("msg", "");
+    $medium = "";
+    if (strlen($sender) == strlen(digitsonly($sender)))
+    {
+      $sender = digitsonly($sender);
+      if (strlen($sender) == 11 && $sender{0} == "1")
+      {
+        $sender = substr($sender, 1);
+      }
+      if (strlen($sender) == 10)
+      {
+        $medium = "SMS";
+      }
+    }
+    if ($medium != "")
+    {
+      $user = $this->User_Model->get_user_by_name($sender);
+      $messages = $this->Message_Model->get_unresponded_messages_by_user($user["user_id"]);
+      if (count($messages) > 0)
+      {
+        $this->Message_Model->update_message($messages[0]["message_id"], array("response"=>date("Y-m-d H:i:s"), "response_text"=>$msg));
+      }
+    }
+    $m = "Message from " . $sender . ": " . $msg;
+    echo $m;
+    log_message('error', $m);
   }
   
 	function get()

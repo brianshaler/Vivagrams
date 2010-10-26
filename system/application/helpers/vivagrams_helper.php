@@ -21,6 +21,7 @@ function getvar($name, $default = false)
 
 function prep_user ($user)
 {
+  $user["user_id"] = $user["id"];
   if ($user["user_name"]{0} == "@")
   {
     $user["twitter"] = substr($user["user_name"], 1);
@@ -34,4 +35,20 @@ function prep_user ($user)
     $user["display_name"] = $user["user_name"];
   }
   return $user;
+}
+
+function digitsonly ($str)
+{
+  $digitsonly = "";
+  $digits = "1234567890";
+  
+  for ($i=0; $i<strlen($str); $i++)
+  {
+    if (strpos($digits, $str{$i}) !== false)
+    {
+      $digitsonly .= "" + $str{$i};
+    }
+  }
+  
+  return $digitsonly;
 }

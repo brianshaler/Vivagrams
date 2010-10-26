@@ -66,6 +66,7 @@ class Sessions extends Controller
     function login_ajax()
     {
     	$this->load->model('User_Model', '', TRUE);
+    	$_POST["user_name"] = digitsonly($this->input->post("user_name"));
     	
     	$success = $this->fal_front->login(true);
     	
@@ -76,7 +77,7 @@ class Sessions extends Controller
       {
         $message = "Login failed.";
         // Check to see if it failed because the user doesn't exist
-      	$user_name = $this->input->post("user_name");
+      	$user_name = digitsonly($this->input->post("user_name"));
       	$password = $this->input->post("password");
         
         $user = $this->User_Model->get_user_by_name($user_name);
@@ -132,7 +133,7 @@ class Sessions extends Controller
     function register_ajax()
     {
     	$this->load->model('User_Model', '', TRUE);
-    	$user_name = $this->input->post("user_name");
+    	$user_name = digitsonly($this->input->post("user_name"));
     	$password = $this->input->post("password");
       
       $user = $this->User_Model->get_user_by_name($user_name);
