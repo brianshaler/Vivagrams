@@ -53,18 +53,20 @@ class Cronx extends Controller {
         foreach($grams as $gram) {
             $gram_time_with_date = $midnight_time + $gram['time_of_day'];
             $message = $gram['message'];
-            if ($gram['response_type'] == "boolean")
+            if (strlen($message) > 0)
             {
-              $message = "Did you $message?";
+              if ($gram['response_type'] == "boolean")
+              {
+                $message = "Did you $message?";
+              }
+              $gram = array(  'user_id' => $gram['user_id'],
+                              'message' => $message, 
+                              'gram_id' => $gram['gram_id'], 
+                              'send' => date('Y-m-d H:i:s', $gram_time_with_date)
+                              //'send' => date('Y-m-d H:i:s')
+                            );
+              $this->Message_Model->create_message($gram);
             }
-            $gram = array(  'user_id' => $gram['user_id'],
-                            'message' => $message, 
-                            'gram_id' => $gram['gram_id'], 
-                            'send' => date('Y-m-d H:i:s', $gram_time_with_date)
-                            //'send' => date('Y-m-d H:i:s')
-                          );
-            $this->Message_Model->create_message($gram);
-            echo "<pre>" . print_r($gram, true) . "</pre>";
         }
     }
 
