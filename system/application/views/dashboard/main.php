@@ -78,12 +78,10 @@ function CreateGram ()
   return false;
   $.post("/api/gram/create/", null,
      function(data){
-       //console.log("Created. "+data);
        newdiv = $("<div>");
        newdiv.html(data);
        newdiv.attr("id", "div_gramtmp");
        $("#gramholder").append(newdiv);
-       //console.log($("#div_gramtmp > .gram_id"));
        newid = $("#div_gramtmp .gram_id").html();
        newdiv.attr("id", "div_gram"+newid);
        $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
@@ -98,12 +96,10 @@ function CreateBooleanGram ()
 {
   $.post("/api/gram/create/boolean", null,
      function(data){
-       //console.log("Created. "+data);
        newdiv = $("<div>");
        newdiv.html(data);
        newdiv.attr("id", "div_gramtmp");
        $("#gramholder").append(newdiv);
-       //console.log($("#div_gramtmp > .gram_id"));
        newid = $("#div_gramtmp .gram_id").html();
        newdiv.attr("id", "div_gram"+newid);
        $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
@@ -119,12 +115,10 @@ function CreateAmountGram ()
 {
   $.post("/api/gram/create/amount", null,
      function(data){
-       //console.log("Created. "+data);
        newdiv = $("<div>");
        newdiv.html(data);
        newdiv.attr("id", "div_gramtmp");
        $("#gramholder").append(newdiv);
-       //console.log($("#div_gramtmp > .gram_id"));
        newid = $("#div_gramtmp .gram_id").html();
        newdiv.attr("id", "div_gram"+newid);
        $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
