@@ -57,13 +57,20 @@ class Api extends Controller
     
     if ($action == "create")
     {
-      // /api/gram/create/
+      // /api/gram/create/$response_type
+      if (strtolower($target) == "amount")
+      {
+        $response_type = "amount";
+      } else
+      {
+        $response_type = "boolean";
+      }
       $resolution = 15;
       $plan = $this->Plan_Model->get_plan_by_user_id(getUserProperty('id'));
       $gram = array(  "plan_id"=>$plan["plan_id"], 
                       "time_of_day"=>floor((time()-strtotime(date("n/j/Y", time())))/$resolution)*$resolution, 
                       "message"=>"", 
-                      "response_type"=>"bool");
+                      "response_type"=>$response_type);
       
       $gram_id = $this->Gram_Model->create_gram($gram);
       $gram = $this->Gram_Model->get_gram_by_gram_id($gram_id);

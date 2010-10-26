@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 24, 2010 at 11:10 AM
+-- Generation Time: Oct 25, 2010 at 10:01 PM
 -- Server version: 5.1.49
 -- PHP Version: 5.3.1
 
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `grams` (
   `response_type` varchar(10) NOT NULL,
   PRIMARY KEY (`gram_id`),
   KEY `plan_id` (`plan_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=34 ;
 
 -- --------------------------------------------------------
 
@@ -63,10 +63,12 @@ CREATE TABLE IF NOT EXISTS `messages` (
   `message` varchar(160) NOT NULL,
   `send` datetime NOT NULL,
   `sent` datetime NOT NULL,
-  `response` int(11) NOT NULL,
+  `response` datetime NOT NULL,
   `response_text` varchar(140) NOT NULL,
-  PRIMARY KEY (`message_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+  PRIMARY KEY (`message_id`),
+  UNIQUE KEY `user_id` (`user_id`,`gram_id`,`send`),
+  KEY `send_gram_user` (`send`,`gram_id`,`user_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 -- --------------------------------------------------------
 
@@ -79,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `plans` (
   `plan_id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`plan_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
 
 -- --------------------------------------------------------
 
@@ -117,7 +119,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`),
   KEY `user_FI_1` (`country_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=15 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
 
 -- --------------------------------------------------------
 

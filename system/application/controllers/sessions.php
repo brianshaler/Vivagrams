@@ -58,25 +58,42 @@ class Sessions extends Controller
      *
      */
     function login()
-    {	    	
+    {
     	$data['fal'] = $this->fal_front->login();
     	
     	redirect('', 'location');
-    	
-    	$this->load->view('templates/header', $data);
-    	$this->load->view('forms/login', $data);
-    	$this->load->view('templates/footer', $data);
     }
-    function first_login()
-    {	    	
-    	$data['fal'] = $this->fal_front->login();
-    	$data['message'] = "You have successfully registered! Go ahead and log in!";
+    function login_ajax()
+    {
+    	$this->load->model('User_Model', '', TRUE);
     	
-    	redirect('', 'location');
+    	$success = $this->fal_front->login(true);
     	
-    	$this->load->view('templates/header', $data);
-    	$this->load->view('forms/login', $data);
-    	$this->load->view('templates/footer', $data);
+      if ($success)
+      {
+        echo json_encode(array("message"=>"success"));
+      } else
+      {
+        $message = "Login failed.";
+        // Check to see if it failed because the user doesn't exist
+      	$user_name = $this->input->post("user_name");
+      	$password = $this->input->post("password");
+        
+        $user = $this->User_Model->get_user_by_name($user_name);
+        if ($user && isset($user["password"]))
+        {
+          if ($this->freakauth_light->_encode($password) != $user["password"])
+          {
+            $message = "Incorrect password.";
+          }
+        } else
+        {
+          $message = "Can't find that number in the system.";
+        }
+        
+        
+        echo json_encode(array("message"=>$message));
+      }
     }
 
     // --------------------------------------------------------------------
@@ -114,6 +131,24 @@ class Sessions extends Controller
      */
     function register_ajax()
     {
+    	$this->load->model('User_Model', '', TRUE);
+    	$user_name = $this->input->post("user_name");
+    	$password = $this->input->post("password");
+      
+      $user = $this->User_Model->get_user_by_name($user_name);
+      if ($user && isset($user["password"]))
+      {
+        if ($this->freakauth_light->_encode($password) == $user["password"])
+        {
+          $this->login_ajax();
+          return;
+        } else
+        {
+          echo json_encode(array("message"=>"User name already taken."));
+          return;
+        }
+      }
+      
       $success = $this->fal_front->register(true);
       
       if ($success)

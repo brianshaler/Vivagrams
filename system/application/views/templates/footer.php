@@ -1,4 +1,3 @@
-  </div>
 </div>
 
 
@@ -31,49 +30,41 @@
 <? if (!isValidUser()) { ?>
 <div id="popover">
           <div class="jQClick">
-        <?=form_open("sessions/login", array('id' => 'login_form'))?>
+   <form action="#" method="POST" id="SubmitPopoverForm">
 
 		<?=form_input(array('name'=>'user_name', 
-                                    'id'=>'user_name',
+                                    'id'=>'popover_user_name',
                                     'maxlength'=>'30', 
                                     'size'=>'30',
-                                    'value'=>'phone',
-                                    'style'=>'width:130px; position: absolute; left: 85px; top: 24px;',
+                                    'style'=>'width:130px; position: absolute; left: 85px; top: 26px;',
                                     'class'=>'textfield'))?>
 
 		<?=form_password(array('name'=>'password', 
-                                    'id'=>'password',
+                                    'id'=>'popover_password',
                                     'maxlength'=>'30', 
                                     'size'=>'30',
-                                    'value'=>'password',
-                                    'style'=>'width:130px; position: absolute; left: 85px; top: 58px;',
+                                    'style'=>'width:130px; position: absolute; left: 85px; top: 59px;',
                                     'class'=>'textfield'))?>
 
-        	<?=form_submit(array('name'=>'login', 
-                                    'id'=>'login', 
-                                    'style'=>'position: absolute; top: 54px; left: 240px;',
+  	<?=form_submit(array('name'=>'login', 
+                                    'id'=>'popover_login', 
+                                    'style'=>'position: absolute; top: 56px; left: 230px;',
                                     'value'=>$this->lang->line('FAL_login_label')))?>&nbsp;&nbsp;
               </div>
-
-            <script type="text/javascript">
-                            		$("#user_name").focus(function () { if (this.value == "phone") {this.value = "";} });
-                            		$("#password").focus(function () { if (this.value == "password") {this.value = "";} });
-            </script>
-	<?=form_close()?>
-	    <a style="position: absolute; top: 110px; left: 85px;" href="<?=oauth_url()?>"><img src="/public/images/twitter_connect.png" border=0 /></a>
+	</form>
+	    <a style="position: absolute; top: 110px; left: 85px;" href="<?=oauth_url()?>"><img src="/public/images/twitter_connect.png" /></a>
+</div>
+<div id="tooltip" style="position: absolute; display: none;">
+<?
+$str = <<<endpopup
+<div id="tooltip_text"><!-- --></div>
+endpopup;
+echo $this->load->view('widgets/tooltip', array("content"=>$str), true);
+?>
 </div>
 <script>
-function UpdatePopoverPosition()
-{
-  w = $(window).width() > 960 ? ($(window).width()-960)/2 : 0;
-  console.log("offset = "+(w + xvals[popoverfollowing]) + ", " + $("#popover").offset().top);
-  $("#popover").css({"left": w + xvals[popoverfollowing]});
-  $("#popover").offset({top: $("#popover").offset().top, left: w + xvals[popoverfollowing]});
-}
-$(window).resize(function () {
-  UpdatePopoverPosition();
-});
-UpdatePopoverPosition();
+
+//popoverfollowing
 </script>
     <? } ?>
 

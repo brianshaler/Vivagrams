@@ -1,7 +1,13 @@
 <?
 $base_url = base_url();
-$user_name = getUserProperty('user_name');
-$profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
+$user = array();
+if (isValidUser())
+{
+  $user = $this->freakauth_light->_getUserProfile(getUserProperty("id"));
+  $user["id"] = getUserProperty("id");
+  $user["user_name"] = getUserProperty("user_name");
+  $user = prep_user($user);
+}
 
 ?>
 
@@ -9,41 +15,21 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Vivagrams :: Healthy Habits for Happiness</title>
+		<link id="page_favicon" href="<?=$base_url?>/public/images/favicon.ico" rel="icon" type="image/x-icon" />
 		
-		<style type="text/css">
-		#popover { position: absolute; top: 50px; width: 321px; height: 149px; background-image: url('/public/images/popover.png'); display: none; }
-		#popover .jQClick {width: 321px; height: 149px;}
-		</style>
-		
+		<script>
+		var base_url = "<?=$base_url?>";
+		</script>
 		
 		<link type="text/css" href="<?=$base_url?>public/css/style.css" rel="stylesheet" />
 		<?
 	        if (isset($page_description)) { echo "<meta name=\"description\" content=\"$page_description\" />\n"; }
 	        if (isset($page_keywords)) { echo "<meta name=\"keywords\" content=\"$page_keywords\" />\n"; }
 		?>
-	    <script src="<?=$base_url?>public/shared/js/jquery-latest.js" type="text/javascript"></script>
-		
+    <script src="<?=$base_url?>public/shared/js/jquery-latest.js" type="text/javascript"></script>
 		
     <? if (!isValidUser()) { ?>
-		<script type="text/javascript">
-      var xvals = [590, 660];
-      var popoverfollowing = 0;
-      
-		  $(document).ready(function(){
-			$('.headerLogin').click(function(e) {
-			  e.preventDefault();
-			  popoverfollowing = 0;
-			  UpdatePopoverPosition();
-				$('#popover').show();
-			});
-			$('.headerRegister').click(function(e) {
-			  e.preventDefault();
-			  popoverfollowing = 1;
-			  UpdatePopoverPosition();
-				$('#popover').show();
-			});
-		});
-		</script>
+		<script src="<?=$base_url?>public/shared/js/login.js"></script>
     <? } ?>
 		
 	</head>
@@ -56,8 +42,13 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	    <h1 class="ir">Vivagrams</h1>
 	  </div>
 	  <div class="right">
-	    <a href="#" class="CronosProBold headerLogin">Log in</a> | 
-		<a href="#" class="CronosProBold headerRegister">Get started</a>
+      <? if (!isValidUser()) { ?>
+  	    <a href="#" class="CronosProBold headerLogin">Log in</a> | 
+  		  <a href="#" class="CronosProBold headerRegister">Get started</a>
+	    <? } else { ?>
+  	    Logged in as <a href="<?=$base_url?>profile" class="CronosProBold"><?=$user["display_name"]?></a> | 
+  		  <a href="<?=$base_url?>sessions/logout" class="CronosProBold">Log out</a>
+	    <? } ?>
 	  </div>
 	</div>
 	<!-- HEADER, LOGIN, and REGISTRATION -->
@@ -65,17 +56,23 @@ $profile = $this->freakauth_light->_getUserProfile(getUserProperty('id'));
 	<!-- NAVIGATION -->
 	<div id="nav">
 	  <ul class="CronosProBold wrapper">
-	    <li><a href="#">Home</a></li>
-	    <li><a href="#">Features</a></li>
-	    <li><a href="#">About</a></li>
-	    <li><a href="#">Tour</a></li>
+      <? if (!isValidUser()) { ?>
+	    <li><a href="<?=$base_url?>">Home</a></li>
+	    <li><a href="<?=$base_url?>features">Features</a></li>
+	    <li><a href="<?=$base_url?>about">About</a></li>
+	    <li><a href="<?=$base_url?>tour">Tour</a></li>
+	    <? } else { ?>
+  	  <li><a href="<?=$base_url?>">Dashboard</a></li>
+  	  <!-- <li><a href="<?=$base_url?>friends">Friends</a></li> -->
+  	  <li><a href="<?=$base_url?>stats">Reports</a></li>
+  	  <li><a href="<?=$base_url?>profile">My Account</a></li>
+	    <? } ?>
 	  </ul>
 	</div>
 	<!-- NAVIGATION -->
 
 	<!-- MAIN CONTENT -->
 	<div id="main">
-	  <div class="wrapper">
 
 
 

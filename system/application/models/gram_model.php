@@ -28,6 +28,10 @@
 		function get_gram_by_gram_id ($gram_id)
 		{
 			$this->db->where('gram_id', intval($gram_id));
+			$this->db->join('plans', 'plans.plan_id = grams.plan_id');
+			
+			$this->db->order_by('time_of_day');
+			
 			$query = $this->db->get('grams');
 			
 			$gram = $query->row_array();
@@ -37,7 +41,11 @@
 		  
 		function get_grams_by_plan_id ($plan_id)
 		{
-			$this->db->where('plan_id', intval($plan_id));
+			$this->db->where('grams.plan_id', intval($plan_id));
+			$this->db->join('plans', 'plans.plan_id = grams.plan_id');
+			
+			$this->db->order_by('time_of_day', 'asc');
+			
 			$query = $this->db->get('grams');
 			
 			$grams = array();
@@ -49,10 +57,14 @@
 			return $grams;
 		}
 		
-		function get_grams_by_time_frame ($start_time_of_day, $end_time_of_day)
+		function get_grams_by_time_of_day ($start_time_of_day, $end_time_of_day)
 		{
 			$this->db->where('time_of_day >=', intval($start_time_of_day));
-			$this->db->where('time_of_day <=', intval($end_time_of_day));
+			$this->db->where('time_of_day <', intval($end_time_of_day));
+			$this->db->join('plans', 'plans.plan_id = grams.plan_id');
+			
+			$this->db->order_by('time_of_day');
+			
 			$query = $this->db->get('grams');
 			
 			$grams = array();

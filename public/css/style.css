@@ -46,6 +46,9 @@ q:before, q:after {
 blockquote, q {
   quotes: "" "";
 }
+img {
+  border: none;
+}
 
 /* FONT FACE
 --------------------------------------------------- */
@@ -88,6 +91,16 @@ blockquote, q {
   margin: 0 auto;
 }
 
+.wrappercontent {
+  padding: 2px 0px 40px 0px;
+  clear: all;
+}
+
+.content {
+  padding: 10px 16px;
+  background-color: #FFFFFF;
+}
+
 .small-column {
   float: left;
   width: 240px;
@@ -108,6 +121,23 @@ body {
   font-size: 14px;
   line-height: 1.3em;
 }
+
+h2 {
+  color: #4B919B;
+  font-size: 36px;
+  margin: 0px 0px 0.2em 0px;
+}
+
+h3 {
+  color: #4b919b;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footnote {
+  color: #7D7D7D;
+}
+
 
 /* HEADER
 --------------------------------------------------- */
@@ -175,7 +205,6 @@ body {
 --------------------------------------------------- */
 #main {
   background: url('/public/images/bg-grad.gif') top repeat-x;
-  height: 425px;
 }
 
 /* FOOTER
@@ -185,6 +214,8 @@ body {
   border-top: 1px solid #b8e6ec;
   border-bottom: 1px solid #b8e6ec;
   padding: 20px 0px;
+  height: 220px;
+  clear: both;
 }
 
 #footer h2 {
@@ -248,21 +279,92 @@ textarea {
   border-color: #e7daa7;
 }
 
+/* COMMON COMPONENTS
+--------------------------------------------------- */
+.popup {
+  
+}
+
+.popup .popup_top {
+  width: 381px;
+  height: 16px;
+  background-image: url('/public/images/popup_top.png');
+}
+.popup .popup_bottom {
+  width: 381px;
+  height: 17px;
+  background-image: url('/public/images/popup_bottom.png');
+}
+.popup .popup_content {
+  background: transparent url('/public/images/popup_middle.png') repeat-y;
+  padding: 0px 20px;
+}
+.popup p {
+  margin: 0.5em 0px 1em 0px;
+}
+
+#popover { position: absolute; top: 43px; width: 321px; height: 149px; background-image: url('/public/images/popover.png'); display: none; }
+#popover .jQClick {width: 321px; height: 149px;}
+
+.tooltip {
+  font-size: 9px;
+  line-height: 1.3em;
+}
+
+.tooltip .tooltip_top {
+  width: 201px;
+  height: 23px;
+  background-image: url('/public/images/tooltip_top.png');
+}
+.tooltip .tooltip_bottom {
+  width: 201px;
+  height: 13px;
+  background-image: url('/public/images/tooltip_bottom.png');
+}
+.tooltip .tooltip_content {
+  background: transparent url('/public/images/tooltip_middle.png') repeat-y;
+  padding: 0px 16px;
+}
+.tooltip p {
+  margin: 0.5em 0px 1em 0px;
+}
+
 /* DASHBOARD
 --------------------------------------------------- */
 .gram {
-  padding: 10px 14px;
   background-color: #FAF8ED;
   width: 705px;
-  height: 60px;
+  height: 62px;
   margin: 0px 0px 10px 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
+.gram_message {
+  margin: 16px 16px;
+  width: 620px;
+  float: left;
+}
 .gram input {
-  height: 28px;
+  height: 30px;
+  font-size: 14px;
 }
 
+.gram select {
+  font-size: 14px;
+}
+
+.gram .deletebutton {
+  float: right;
+  padding: 5px 4px;
+}
+
+.gram_boolean {
+  width: 300px;
+}
+
+.gram_amount {
+  width: 309px;
+}
 
 
 

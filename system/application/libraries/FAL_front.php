@@ -155,7 +155,7 @@ class Fal_front
      *
      * @return the login form view HTML output
      */
-    function login()
+    function login($ajax = false)
     {	
         //if a valid user is already logged in
         if($this->CI->freakauth_light->belongsToGroup('user'))
@@ -178,7 +178,11 @@ class Fal_front
             flashMsg($msg);
    
             // redirects to homepage
-            redirect('', 'location');
+            if ($ajax) {
+              return true;
+            } else {
+              redirect('', 'location');
+            }
         }
         else
         {
@@ -229,7 +233,11 @@ class Fal_front
                     // the user is still denied on the requested page.
                     // (otherwise the 'already logged in' message is displayed)
                     $this->CI->db_session->set_flashdata('requested_page', $requested_page);
-                    redirect( $requested_page, 'location');
+                    if ($ajax) {
+                      return true;
+                    } else {
+                      redirect( $requested_page, 'location');
+                    }
                 }
                 
                 // if no page was requested before, let's redirect the user
@@ -245,7 +253,11 @@ class Fal_front
                        
                     default:
                         // On success redirect user to default page
-                        redirect($this->CI->config->item('FAL_login_success_action'), 'location');
+                        if ($ajax) {
+                          return true;
+                        } else {
+                          redirect($this->CI->config->item('FAL_login_success_action'), 'location');
+                        }
                         break;
                 }
             }
@@ -267,6 +279,12 @@ class Fal_front
                 //return $this->CI->load->view($this->CI->config->item('FAL_login_view'), $data, TRUE);
                
                 //$this->CI->output->enable_profiler(TRUE);
+                if ($ajax) {
+                  return false;
+                }
+            }
+            if ($ajax) {
+              return false;
             }
         }
     }

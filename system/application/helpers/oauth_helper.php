@@ -14,11 +14,15 @@ function complete_oauth ()
   
 }
 
+$oauth_url = "";
 function oauth_url ()
 {
+  return;
+  global $oauth_url;
     try {
         $twitterObj = new EpiTwitter(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
-        return $twitterObj->getAuthenticateUrl();
+        $oauth_url = $twitterObj->getAuthenticateUrl();
+        return $oauth_url;
     } catch(EpiOAuthException $e) {
         return $e;
     }

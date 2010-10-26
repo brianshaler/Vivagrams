@@ -18,3 +18,20 @@ function getvar($name, $default = false)
     }
     return $default;
 }
+
+function prep_user ($user)
+{
+  if ($user["user_name"]{0} == "@")
+  {
+    $user["twitter"] = substr($user["user_name"], 1);
+  } else
+  if (preg_match('/^[\d]{10}$/', $user["user_name"]) && $user["display_name"] == "")
+  {
+    $user["display_name"] = substr($user["user_name"], 0, 3) . "-" . substr($user["user_name"], 3, 3) . "-" . substr($user["user_name"], 6, 4);
+  }
+  if (!isset($user["display_name"]) || $user["display_name"] == "")
+  {
+    $user["display_name"] = $user["user_name"];
+  }
+  return $user;
+}

@@ -16,7 +16,7 @@ class User_Model extends Model {
     
     foreach ($query->result_array() as $row)
     {
-        return $row;
+        return prep_user($row);
     }
     
     return array();
@@ -30,7 +30,7 @@ class User_Model extends Model {
     
     foreach ($query->result_array() as $row)
     {
-        return $row;
+        return prep_user($row);
     }
     
     return array();
