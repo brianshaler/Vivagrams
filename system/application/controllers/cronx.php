@@ -96,8 +96,9 @@ class Cronx extends Controller {
             {
               // Send to Tropo
               $user = $message['user_name'];
+              $users[$message["user_id"]][] = $message;
               $this->send_message($message['user_name'], $message['message']);
-            
+              
               $this->Message_Model->send_message($message['message_id']);
               $sent_count++;
             }
