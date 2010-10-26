@@ -32,6 +32,7 @@
 <?
 $base_url = base_url();
 $str = <<<endpopup
+<a href="#" onclick="return ($('#create_gram_popup').hide() === false);" class="deletebutton" style="float: right;" title="Close Popup"><img src="/public/images/x.gif" alt="Close" /></a>
 <h3>What are we tracking?</h3>
 <p>
   <div class="select_div">
