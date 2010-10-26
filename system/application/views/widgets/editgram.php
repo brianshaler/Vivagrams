@@ -59,7 +59,6 @@ if (!function_exists("pad_zero"))
   function DeleteGram<?=$gram_id?> () {
     $.post("/api/gram/delete/<?=$gram_id?>", null,
        function(data){
-         //console.log("Deleted. "+data);
          $("#div_gram<?=$gram_id?>").remove();
        });
     return false;
@@ -67,11 +66,9 @@ if (!function_exists("pad_zero"))
   function UpdateGram<?=$gram_id?> () {
     message = $("#gram_<?=$gram_id?>_message").val();
     time = $("#gram_<?=$gram_id?>_hour").val() + ":" + $("#gram_<?=$gram_id?>_minute").val() + $("#gram_<?=$gram_id?>_ampm").val();
-    if (console) console.log("message: "+message+"; time: "+time);
     
     $.post("/api/gram/update/<?=$gram_id?>", { message: message, time_of_day: time},
        function(data){
-         //console.log("Saved. "+data);
        });
   }
   $('#gram_<?=$gram_id?>_hour').change(UpdateGram<?=$gram_id?>);

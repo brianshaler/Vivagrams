@@ -38,13 +38,6 @@ $(document).ready(function(){
            window.location = base_url;
          } else
          {
-           if (console)
-           {
-             console.log("data.message: "+data.message);
-           } else
-           {
-             alert("data.message: "+data.message);
-           }
            SubmitError(data.message);
          }
        }, "json"
@@ -145,7 +138,6 @@ function UpdateTooltip(x, y, str)
 function UpdatePopoverPosition()
 {
   w = $(window).width() > 960 ? ($(window).width()-960)/2 : 0;
-  //console.log("offset = "+(w + xvals[popoverfollowing]) + ", " + $("#popover").offset().top);
   $("#popover").css({"left": w + xvals[popoverfollowing]});
   $("#popover").offset({top: $("#popover").offset().top, left: w + xvals[popoverfollowing]});
 }
