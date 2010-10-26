@@ -7,7 +7,7 @@ define('CRON', TRUE);   // Test for this in your controllers if you only want th
 if(!defined('CRON_LOG')) define('CRON_LOG', 'cron.log');
 if(!defined('CRON_TIME_LIMIT')) define('CRON_TIME_LIMIT', 15*60);
 
-$path = "/cronx/gram";
+$path = "/cronx/message";
 
 $_SERVER['PATH_INFO'] = $path;
 $_SERVER['REQUEST_URI'] = $path;

@@ -35,7 +35,7 @@ $(document).ready(function(){
        function(data){
          if (data.message == "success")
          {
-           window.location = base_url + "/";
+           window.location = base_url;
          } else
          {
            if (console)

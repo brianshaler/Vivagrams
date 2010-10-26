@@ -12,11 +12,8 @@
   color: #7D7D7D;
   line-height: 1.3em;
 }
-#create_gram_popup a:link, #create_gram_popup a:active, #create_gram_popup a:visited {
+#create_gram_popup a {
   text-decoration: none;
-}
-#create_gram_popup a:hover {
-  text-decoration: underline;
 }
 #create_gram_popup .select_div {
   float: left;
