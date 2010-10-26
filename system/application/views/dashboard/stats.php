@@ -22,7 +22,7 @@
       Response
     </td>
   </tr>
-  <? array_reverse($messages); foreach ($messages as $message) { ?>
+  <? $messages = array_reverse($messages); foreach ($messages as $message) { ?>
   <tr>
     <td>
       <?=$message["sent"]?>
