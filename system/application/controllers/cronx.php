@@ -2,7 +2,7 @@
 
 class Cronx extends Controller {
   
-  var $max_sms = 1;
+  var $max_sms = 25;
   
     function __construct() {
         parent::Controller();
@@ -73,6 +73,7 @@ class Cronx extends Controller {
       $sent_count = 0;
         $unsent_messages = $this->Message_Model->get_unsent_messages(date('Y-m-d H:i:s'));
         var_dump($unsent_messages);
+        $users = array();
         
         //$this->Message_Model->send_message($unsent_messages[0]['message_id']);
         foreach($unsent_messages as $message) {
@@ -81,12 +82,23 @@ class Cronx extends Controller {
             return;
           } else
           {
-            // Send to Tropo
-            $user = $message['user_name'];
-            $this->send_message($message['user_name'], $message['message']);
+            if (!isset($users[$message["user_id"]]))
+            {
+              $users[$message["user_id"]] = $this->Message_Model->get_unresponded_messages_by_user($message["user_id"]);
+            }
+            if (count($users[$message["user_id"]]) > 0)
+            {
+              echo "<pre>user_id: ".$message["user_id"]."</pre>";
+              // waiting for a response from this user
+            } else
+            {
+              // Send to Tropo
+              $user = $message['user_name'];
+              $this->send_message($message['user_name'], $message['message']);
             
-            $this->Message_Model->send_message($message['message_id']);
-            $sent_count++;
+              $this->Message_Model->send_message($message['message_id']);
+              $sent_count++;
+            }
           }
         }
     }
