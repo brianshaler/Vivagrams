@@ -70,16 +70,24 @@ class Cronx extends Controller {
 
     // Send unsent messages
     function message() {
+      $sent_count = 0;
         $unsent_messages = $this->Message_Model->get_unsent_messages(date('Y-m-d H:i:s'));
         var_dump($unsent_messages);
         
         //$this->Message_Model->send_message($unsent_messages[0]['message_id']);
         foreach($unsent_messages as $message) {
+          if ($sent_count >= $this->max_sms)
+          {
+            return;
+          } else
+          {
             // Send to Tropo
             $user = $message['user_name'];
             $this->send_message($message['user_name'], $message['message']);
             
             $this->Message_Model->send_message($message['message_id']);
+            $sent_count++;
+          }
         }
     }
     
