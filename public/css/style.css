@@ -329,6 +329,46 @@ textarea {
   margin: 0.5em 0px 1em 0px;
 }
 
+/* HOME
+--------------------------------------------------- */
+#one {
+	margin-top: 75px;
+	float: left;
+	width: 267px;
+}
+
+#two {
+	margin-top: 75px;
+	float: left;
+	width: 266px;
+}
+
+#three {
+	margin-top: 75px;
+	float: left;
+	width: 267px;
+}
+
+#one img,#two img,#three img {
+	margin-bottom: 80px;
+	margin-left: 59px;
+	margin-right: 59px;
+}
+
+#home {
+  padding: 0px 0px 0px 110px;
+}
+
+#home p {
+	font-size: 20px;
+	line-height: 22px;
+	margin: 0 15px;
+	color: #4d4d4d;
+	text-align: center;
+}
+
+
+
 /* DASHBOARD
 --------------------------------------------------- */
 .gram {
