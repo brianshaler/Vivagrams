@@ -25,6 +25,32 @@
 			return $this->db->insert_id();
 		}
 		
+		function create_default_grams ($user_id, $plan_id)
+		{
+		  $minute = 60;
+		  $hour = 3600;
+		  $grams = array( array("How many hours of sleep did you get?",     7*$hour + 30*$minute, "amount"),
+		                  array("Did you eat a healthy breakfast?",         8*$hour + 0*$minute, "boolean"),
+		                  array("On a scale of 1-10, how do you feel?",     8*$hour + 30*$minute, "amount"),
+		                  array("Did you excercise this morning?",          9*$hour + 0*$minute, "boolean"),
+		                  array("Did you eat a healthy lunch?",             12*$hour + 30*$minute, "boolean"),
+		                  array("On a scale of 1-10, how do you feel?",     2*$hour + 30*$minute, "amount"),
+		                  array("Did you eat a healthy dinner?",            6*$hour + 30*$minute, "boolean"),
+		                  array("On a scale of 1-10, how do you feel?",     7*$hour + 0*$minute, "amount"),
+		                  array("How many pushups can you do?",             8*$hour + 30*$minute, "amount"),
+		                  array("How much do you weigh?",                   9*$hour + 0*$minute, "amount")
+		    );
+		  foreach ($grams as $gram)
+		  {
+		    $this->create_gram(array(   "user_id"=>$user_id,
+		                                "plan_id"=>$plan_id,
+		                                "message"=>$gram[0],
+		                                "time_of_day"=>$gram[1],
+		                                "response_type"=>$gram[2]
+		                              ));
+	    }
+	  }
+		
 		function get_gram_by_gram_id ($gram_id)
 		{
 			$this->db->where('gram_id', intval($gram_id));

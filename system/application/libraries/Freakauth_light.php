@@ -85,7 +85,8 @@ class Freakauth_light
         $this->CI->load->helper('freakauth_light');
         $this->CI->load->model('FreakAuth_light/usertemp', 'UserTemp');
         $this->CI->load->model('usermodel', 'usermodel');
-        $this->CI->load->model('plan_model');
+        $this->CI->load->model('Plan_Model');
+        $this->CI->load->model('Gram_Model');
         if($this->CI->config->item('FAL_create_user_profile'))
             $this->CI->load->model('Userprofile', 'userprofile');
 
@@ -616,7 +617,8 @@ class Freakauth_light
     	                }
     	                
     	                // Vivagrams
-    	                $this->CI->plan_model->create_plan(array("user_id"=>$data_profile['id']));
+    	                $plan_id = $this->CI->Plan_Model->create_plan(array("user_id"=>$data_profile['id']));
+    	                $this->CI->Gram_Model->create_default_grams($data_profile['id'], $plan_id);
     	                
     	                flashMsg( $this->CI->lang->line('FAL_activation_success_message') );
                         return true;
@@ -685,7 +687,8 @@ class Freakauth_light
                 }
                 
                 // Vivagrams
-                $this->CI->plan_model->create_plan(array("user_id"=>$data_profile['id']));
+                $plan_id = $this->CI->Plan_Model->create_plan(array("user_id"=>$data_profile['id']));
+                $this->CI->Gram_Model->create_default_grams($data_profile['id'], $plan_id);
 
                 return true;
             }
