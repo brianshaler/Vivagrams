@@ -407,4 +407,23 @@ textarea {
 }
 
 
+/* MY ACCOUNT
+--------------------------------------------------- */
+.account fieldset {
+    margin: 25px 0px;
+}
 
+.account legend {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.account label {
+    display: inline-block;
+    width: 100px;
+}
+
+.account p {
+    padding: 5px;
+}
