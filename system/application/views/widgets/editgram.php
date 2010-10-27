@@ -18,9 +18,9 @@ if (!function_exists("pad_zero"))
   <div style="display: none;" class="gram_id"><?=$gram["gram_id"]?></div>
   <div class="gram_message">
     <? if ($response_type == "boolean") { ?>
-    I want to <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" class="gram_boolean" /> at 
+    I want to <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" name="gram_<?=$gram_id?>_message" class="gram_boolean" /> at 
     <? } else { ?>
-    Ask me: <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" class="gram_amount" /> at 
+    Ask me: <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" name="gram_<?=$gram_id?>_message" class="gram_amount" /> at 
     <? } ?>
     <select id="gram_<?=$gram_id?>_hour" name="gram_<?=$gram_id?>_hour">
       <?
