@@ -7,6 +7,7 @@ class Profile extends Controller {
 		parent::Controller();
 		
 		$this->load->library('FAL_front', 'fal_front');
+        //$this->load->library('session');
 		$this->load->helper('vivagrams');
 		$this->load->helper('oauth');
 		$this->load->helper('form');
@@ -28,6 +29,7 @@ class Profile extends Controller {
             return;
         }
             
+        // Process form
         if(!empty($_POST))
         {
             $profile_data = array('notifications' => $this->input->post('notifications'));
@@ -38,6 +40,7 @@ class Profile extends Controller {
             }
             $this->Userprofile->updateUserProfile(getUserProperty('id'), $profile_data);
             $this->User_Model->update_user_by_id(getUserProperty('id'), $user_data);
+            $this->db_session->set_flashdata('success', 'You have updated your account information');
             redirect('/profile');
         }
 
