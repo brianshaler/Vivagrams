@@ -27,7 +27,7 @@ class Home extends Controller {
       $first_use = false;
       
   	  $user = $this->User_Model->get_user_by_id(getUserProperty('id'));
-  	  if ($user["welcome_message"] == 0) { $first_use = true; }
+  	  //if ($user["welcome_message"] == 0) { $first_use = true; }
   		$this->load->view('templates/header', array("user"=>$user));
       $plan = $this->Plan_Model->get_plan_by_user_id(getUserProperty('id'));
       //echo "<pre>Plan: ".print_r($plan, true)."</pre>\n";
