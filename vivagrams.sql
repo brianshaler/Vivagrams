@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.5
+-- version 3.3.7deb1
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 25, 2010 at 10:01 PM
+-- Generation Time: Oct 27, 2010 at 12:56 AM
 -- Server version: 5.1.49
--- PHP Version: 5.3.1
+-- PHP Version: 5.3.3-1ubuntu9.1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `grams` (
   `response_type` varchar(10) NOT NULL,
   PRIMARY KEY (`gram_id`),
   KEY `plan_id` (`plan_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=34 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=44 ;
 
 -- --------------------------------------------------------
 
@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `plans` (
   `plan_id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`plan_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
 
 -- --------------------------------------------------------
 
@@ -119,7 +119,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`),
   KEY `user_FI_1` (`country_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
 
 -- --------------------------------------------------------
 
@@ -134,6 +134,8 @@ CREATE TABLE IF NOT EXISTS `user_profile` (
   `email_notifications` tinyint(1) NOT NULL,
   `custom_email` varchar(140) NOT NULL,
   `email_notice` varchar(55) NOT NULL,
+  `notifications` tinyint(1) NOT NULL,
+  `welcome_message_seen` tinyint(1) NOT NULL,
   UNIQUE KEY `id` (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
