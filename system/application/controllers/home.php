@@ -17,22 +17,18 @@ class Home extends Controller {
   	$this->load->model('Plan_Model', '', TRUE);
   	$this->load->model('Gram_Model', '', TRUE);
   	
-  	if (isValidUser())
-  	{
-  	  $user = $this->User_Model->get_user_by_id(getUserProperty('id'));
-	  } else
-	  {
-	    $oauth_url = oauth_url();
-	    $user = array();
-    }
-  	
-		$this->load->view('templates/header', array("user"=>$user));
 		if (!isValidUser())
 		{
     	$data['fal'] = $this->fal_front->register();
+  		$this->load->view('templates/header');
       $this->load->view('templates/home', $data);
     } else
     {
+      $first_use = false;
+      
+  	  $user = $this->User_Model->get_user_by_id(getUserProperty('id'));
+  	  if ($user["welcome_message"] == 0) { $first_use = true; }
+  		$this->load->view('templates/header', array("user"=>$user));
       $plan = $this->Plan_Model->get_plan_by_user_id(getUserProperty('id'));
       //echo "<pre>Plan: ".print_r($plan, true)."</pre>\n";
       $grams = $this->Gram_Model->get_grams_by_plan_id($plan["plan_id"]);
@@ -47,7 +43,6 @@ class Home extends Controller {
 	{
     $req = $this->uri->uri_string();
     
-    return;
     /** /
     if ($req == "/sitemap.xml" || $req == "sitemap.xml")
     {

@@ -14,11 +14,11 @@
     </div>
     <div class="small-column">
       <h2 class="CronosProBold">Connect</h2>
-      <p><a href="#" id="twitter" class="ir">Follow Vivagrams on Twitter</a></p>
-      <p><a href="#" id="facebook" class="ir">Follow Vivagrams on Facebook</a></p>
+      <p><a href="http://twitter.com/vivagrams" id="twitter" class="ir">Follow Vivagrams on Twitter</a></p>
+      <p><a href="http://www.facebook.com/pages/Vivagrams/154350017940772" id="facebook" class="ir">Follow Vivagrams on Facebook</a></p>
     </div>
     <div id="iphone-app" class="small-column">
-      <p><a href="#" class="ir">Download iPhone app</a></p>
+      <p><a href="<?=base_url()?>comingsoon/iphone_app" class="ir">Download iPhone app</a></p>
     </div>
   </div>
 </div>
@@ -52,7 +52,7 @@
                                     'value'=>$this->lang->line('FAL_login_label')))?>&nbsp;&nbsp;
               </div>
 	</form>
-	    <a style="position: absolute; top: 110px; left: 85px;" href="<?=oauth_url()?>"><img src="/public/images/twitter_connect.png" /></a>
+	    <a style="position: absolute; top: 110px; left: 85px;" href="<?=base_url()?>twitter_oauth/redirect"><img src="/public/images/twitter_connect.png" /></a>
 </div>
 <div id="tooltip" style="position: absolute; display: none;">
 <?
