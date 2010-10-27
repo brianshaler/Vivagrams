@@ -53,6 +53,11 @@ class Twitter_oauth extends Controller {
     //redirect('', 'location');
 	}
 	
+	function redirect ()
+	{
+	  redirect("comingsoon/twitter_oauth", "location");
+  }
+	
 	function test()
 	{
 	  $token = "6114312-5CUNdeBy0qSlTxVMFKhUtyCKJCuE0aSPAk92KywYp0";

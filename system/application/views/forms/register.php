@@ -22,4 +22,4 @@
 		</div>
 	</form>
 </div>
-<a href="<?=oauth_url()?>">Twitter oauth</a>
+<a href="<?=base_url()?>twitter_oauth/redirect">Twitter oauth</a>
