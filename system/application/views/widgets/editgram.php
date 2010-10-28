@@ -18,9 +18,9 @@ if (!function_exists("pad_zero"))
   <div style="display: none;" class="gram_id"><?=$gram["gram_id"]?></div>
   <div class="gram_message">
     <? if ($response_type == "boolean") { ?>
-    I want to <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" class="gram_boolean" /> at 
+    I want to <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" name="gram_<?=$gram_id?>_message" class="gram_boolean" /> at 
     <? } else { ?>
-    Ask me: <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" class="gram_amount" /> at 
+    Ask me: <input type="text" value="<?=$gram["message"]?>" id="gram_<?=$gram_id?>_message" name="gram_<?=$gram_id?>_message" class="gram_amount" /> at 
     <? } ?>
     <select id="gram_<?=$gram_id?>_hour" name="gram_<?=$gram_id?>_hour">
       <?
@@ -63,6 +63,20 @@ if (!function_exists("pad_zero"))
        });
     return false;
   }
+  // Each keystroke adds an element to an array which gets removed after a delay
+  // When the last one is removed, the Gram will be autosaved
+  autosave_delay<?=$gram_id?> = [];
+  function UpdateGramText<?=$gram_id?> () {
+    autosave_delay<?=$gram_id?>.push(1);
+    setTimeout(CheckQueue<?=$gram_id?>, 700);
+  }
+  function CheckQueue<?=$gram_id?> () {
+    autosave_delay<?=$gram_id?>.pop();
+    if (autosave_delay<?=$gram_id?>.length == 0)
+    {
+      UpdateGram<?=$gram_id?>();
+    }
+  }
   function UpdateGram<?=$gram_id?> () {
     message = $("#gram_<?=$gram_id?>_message").val();
     time = $("#gram_<?=$gram_id?>_hour").val() + ":" + $("#gram_<?=$gram_id?>_minute").val() + $("#gram_<?=$gram_id?>_ampm").val();
@@ -74,7 +88,8 @@ if (!function_exists("pad_zero"))
   $('#gram_<?=$gram_id?>_hour').change(UpdateGram<?=$gram_id?>);
   $('#gram_<?=$gram_id?>_minute').change(UpdateGram<?=$gram_id?>);
   $('#gram_<?=$gram_id?>_ampm').change(UpdateGram<?=$gram_id?>);
-  $('#gram_<?=$gram_id?>_message').keyup(UpdateGram<?=$gram_id?>);
+  $('#gram_<?=$gram_id?>_message').keyup(UpdateGramText<?=$gram_id?>);
+  $('#gram_<?=$gram_id?>_message').change(UpdateGramText<?=$gram_id?>);
   
   </script>
 </div>

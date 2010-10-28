@@ -87,7 +87,8 @@ function CreateGram ()
        $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
        $("#gram_"+newid+"_minute").change(eval("UpdateGram"+newid));
        $("#gram_"+newid+"_ampm").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_message").keyup(eval("UpdateGram"+newid));
+       $("#gram_"+newid+"_message").keyup(eval("UpdateGramText"+newid));
+       $("#gram_"+newid+"_message").change(eval("UpdateGramText"+newid));
        $("#gram_"+newid+"_message").focus();
      });
   return false;
@@ -105,7 +106,8 @@ function CreateBooleanGram ()
        $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
        $("#gram_"+newid+"_minute").change(eval("UpdateGram"+newid));
        $("#gram_"+newid+"_ampm").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_message").keyup(eval("UpdateGram"+newid));
+       $("#gram_"+newid+"_message").keyup(eval("UpdateGramText"+newid));
+       $("#gram_"+newid+"_message").change(eval("UpdateGramText"+newid));
        $("#gram_"+newid+"_message").focus();
        $("#create_gram_popup").hide();
      });
@@ -124,7 +126,8 @@ function CreateAmountGram ()
        $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
        $("#gram_"+newid+"_minute").change(eval("UpdateGram"+newid));
        $("#gram_"+newid+"_ampm").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_message").keyup(eval("UpdateGram"+newid));
+       $("#gram_"+newid+"_message").keyup(eval("UpdateGramText"+newid));
+       $("#gram_"+newid+"_message").change(eval("UpdateGramText"+newid));
        $("#gram_"+newid+"_message").focus();
        $("#create_gram_popup").hide();
      });

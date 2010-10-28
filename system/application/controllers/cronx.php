@@ -18,6 +18,12 @@ class Cronx extends Controller {
     
     // Create new messages from grams in last interval
     function gram() {
+      
+      if (!CRON || CRON !== true)
+      {
+        redirect(base_url(), "location");
+        return;
+      }
 
         // Constants
         define('INTERVAL', 15); // in minutes
@@ -72,6 +78,13 @@ class Cronx extends Controller {
 
     // Send unsent messages
     function message() {
+      
+      if (!CRON || CRON !== true)
+      {
+        redirect(base_url(), "location");
+        return;
+      }
+      
       $sent_count = 0;
         $unsent_messages = $this->Message_Model->get_unsent_messages(date('Y-m-d H:i:s'));
         var_dump($unsent_messages);
@@ -97,7 +110,7 @@ class Cronx extends Controller {
               // Send to Tropo
               $user = $message['user_name'];
               $users[$message["user_id"]][] = $message;
-              $this->send_message($message['user_name'], $message['message']);
+              $this->_send_message($message['user_name'], $message['message']);
               
               $this->Message_Model->send_message($message['message_id']);
               $sent_count++;
@@ -106,7 +119,7 @@ class Cronx extends Controller {
         }
     }
     
-    function send_message ($recipient, $message) {
+    function _send_message ($recipient, $message) {
       $dev = true;
       $msg = urlencode($message['message']);
       $url = "http://api.tropo.com/1.0/sessions?action=create&token=d61d3c07322a2541ae6006f4c74900777b23d859e7aefd19e7c9141691d24f80312a5ced9ac42d688c0f1921&messageto=";
