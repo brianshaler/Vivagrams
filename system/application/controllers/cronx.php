@@ -31,13 +31,12 @@ class Cronx extends Controller {
         define('HOURS', 3600); // seconds per hour
 
         // Get current time by hours/minutes/seconds
-        $hour = date('G'); //8*HOURS;
-        $minute = date('i'); //8*HOURS;
-        $second = date('s'); //8*HOURS;
+        $hour = date('G');
+        $minute = date('i');
+        $second = date('s');
 
         // Calculate current time and start time in seconds
         $time = ceil(($hour*HOURS + $minute*MINUTES + $second)/(INTERVAL*MINUTES))*(INTERVAL*MINUTES);
-        //$time = 8*HOURS;
         $start_time = $time - INTERVAL*MINUTES;
 
         // Dealing with cron just past midnight -- need to add total seconds
@@ -90,7 +89,6 @@ class Cronx extends Controller {
         var_dump($unsent_messages);
         $users = array();
         
-        //$this->Message_Model->send_message($unsent_messages[0]['message_id']);
         foreach($unsent_messages as $message) {
           if ($sent_count >= $this->max_sms)
           {
