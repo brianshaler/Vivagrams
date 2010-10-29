@@ -251,6 +251,13 @@ a#facebook {
   height: 17px;
 }
 
+a#tropo {
+  background: url('/public/images/tropo.png') no-repeat left top;
+  display: block;
+  height: 18px;
+  margin-bottom: 15px;
+}
+
 #iphone-app a {
   background: url('/public/images/app-store.png') no-repeat left top;
   display: block;
@@ -286,7 +293,7 @@ textarea {
 /* COMMON COMPONENTS
 --------------------------------------------------- */
 .popup {
-  
+  width: 381px;
 }
 
 .popup .popup_top {

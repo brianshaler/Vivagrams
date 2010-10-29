@@ -16,6 +16,8 @@
       <h2 class="CronosProBold">Connect</h2>
       <p><a href="http://twitter.com/vivagrams" id="twitter" class="ir">Follow Vivagrams on Twitter</a></p>
       <p><a href="http://www.facebook.com/pages/Vivagrams/154350017940772" id="facebook" class="ir">Follow Vivagrams on Facebook</a></p>
+      <h2 class="CronosProBold">Proudly Powered By</h2>
+      <p><a href="http://tropo.com/" id="tropo" class="ir">Tropo</a></p>
     </div>
     <div id="iphone-app" class="small-column">
       <p><a href="<?=base_url()?>comingsoon/iphone_app" class="ir">Download iPhone app</a></p>
