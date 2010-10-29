@@ -51,9 +51,23 @@ function digitsonly ($str)
   {
     if (strpos($digits, $str{$i}) !== false)
     {
-      $digitsonly .= "" + $str{$i};
+      $digitsonly .= $str{$i};
     }
   }
   
   return $digitsonly;
+}
+function alphanumeric ($str)
+{
+  $alpha = "";
+  
+  for ($i=0; $i<strlen($str); $i++)
+  {
+    if (preg_match("/[0-9a-z]/i", $str{$i}))
+    {
+      $alpha .= "" . $str{$i};
+    }
+  }
+  
+  return $alpha;
 }

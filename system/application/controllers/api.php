@@ -62,11 +62,46 @@ class Api extends Controller
         // Load user commands
         //$my_commands = $this->Command_Model->get_commands_by_user_id($user["user_id"]);
         
-        // Respond to a message, if we're awaiting a response
-        $messages = $this->Message_Model->get_unresponded_messages_by_user($user["user_id"]);
-        if (count($messages) > 0)
+        // If it's a command, we'll put it here
+        $command = array();
+        
+        $first = "";
+        $i = 0;
+        $newmsg = "";
+        // pull out the first alphabetical string
+        while ($i < strlen($msg) && preg_match("/[a-z]/i", $msg{$i}))
         {
-          $this->Message_Model->update_message($messages[0]["message_id"], array("response"=>date("Y-m-d H:i:s"), "response_text"=>$msg));
+          $first .= strtolower($msg{$i});
+          $i++;
+        }
+        // Copy remaining to new message var. If $first is a command, the rest is the new message
+        while ($i < strlen($msg))
+        {
+          $newmsg .= $msg{$i};
+          $i++;
+        }
+        
+        foreach ($global_commands as $cmd)
+        {
+          if ($cmd["command"] == $first)
+          {
+            $command = $cmd;
+          }
+        }
+        
+        // If $command was filled, let's process the command
+        if (!empty($command))
+        {
+          $msg = $newmsg;
+          $this->run_command($user, $command["action"], $msg);
+        } else
+        {
+          // Respond to a message, if we're awaiting a response
+          $messages = $this->Message_Model->get_unresponded_messages_by_user($user["user_id"]);
+          if (count($messages) > 0)
+          {
+            $this->Message_Model->update_message($messages[0]["message_id"], array("response"=>date("Y-m-d H:i:s"), "response_text"=>$msg));
+          }
         }
       }
     }
@@ -190,6 +225,48 @@ class Api extends Controller
       $this->Userprofile->updateUserProfile(getUserProperty('id'), $profile_data);
       echo json_encode(array("message"=>"success"));
       return;
+    }
+  }
+  
+  function run_command ($user, $action, $content)
+  {
+    echo "run_command: ".$user["user_id"].", $action, $content<br />";
+    if ($action == "confirm")
+    {
+      // GO = phone number confirmation
+      $this->Userprofile->updateUserProfile($user["user_id"], array("confirmed_number"=>1));
+    } else
+    if ($action == "notifications:on")
+    {
+      // Turn notifications on, if the number is confirmed (?)
+      if ($user["confirmed_number"] == 1)
+      {
+        $this->Userprofile->updateUserProfile($user["user_id"], array("notifications"=>1));
+        echo "Notifications ON";
+      } else
+      {
+        echo "Confirm first";
+        // Well, maybe "on" should be synonymous with "go"....
+      }
+    } else
+    if ($action == "notifications:off")
+    {
+      // Turn notifications off
+      $this->Userprofile->updateUserProfile($user["user_id"], array("notifications"=>0));
+      echo "Notifications OFF";
+    } else
+    if ($action == "skip")
+    {
+      // Skip current question
+      
+    } else
+    if ($action == "undo")
+    {
+      // Delete the last response from the user and resend the question
+    } else
+    if ($action == "help")
+    {
+      // Send a help message to the user
     }
   }
 }
