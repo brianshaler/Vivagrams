@@ -64,13 +64,6 @@ echo $this->load->view('widgets/popup', array("content"=>$str), true);
   <a href="#" onclick="return CreateGram();" title="Add new gram"><img src="<?=base_url()?>public/images/addnew.png" alt="Add new gram" /></a>
 </p>
 <script>
-jQuery.fn.center = function () {
-    this.css("position","absolute");
-    this.css("top", ( $(window).height() - this.height() ) / 2+$(window).scrollTop() + "px");
-    this.css("left", ( $(window).width() - this.width() ) / 2+$(window).scrollLeft() + "px");
-    return this;
-}
-
 function CreateGram ()
 {
   $("#create_gram_popup").show();
@@ -135,5 +128,27 @@ function CreateAmountGram ()
 }
 </script>
 <p class="footnote">Note: No need to press Save! Your changes are saved as you make them.</p>
+<? if (isset($first_use) && $first_use == true) { ?>
+  <div id="welcome_message" style="display: none;">
+  <?
+  $str = <<<endpopup
+  <a href="#" onclick="return CloseWelcomePopup();" class="deletebutton" style="float: right;" title="Close Popup"><img src="/public/images/x.gif" alt="Close" /></a>
+  <h3>Welcome to Vivagrams!</h3>
+  <p>
+    Welcome message...
+  </p>
+endpopup;
+  echo $this->load->view('widgets/popup', array("content"=>$str), true);
+  ?>
+  </div>
+  <script>
+  $('#welcome_message').show();
+  $('#welcome_message').center();
+  function CloseWelcomePopup() {
+    $('#welcome_message').hide();
+    $.post("/api/user/dismiss_welcome");
+  }
+  </script>
+<? } ?>
 </div>
 </div>

@@ -27,14 +27,14 @@ class Home extends Controller {
       $first_use = false;
       
   	  $user = $this->User_Model->get_user_by_id(getUserProperty('id'));
-  	  //if ($user["welcome_message"] == 0) { $first_use = true; }
+  	  if ($user["welcome_message_seen"] == 0) { $first_use = true; }
   		$this->load->view('templates/header', array("user"=>$user));
       $plan = $this->Plan_Model->get_plan_by_user_id(getUserProperty('id'));
       //echo "<pre>Plan: ".print_r($plan, true)."</pre>\n";
       $grams = $this->Gram_Model->get_grams_by_plan_id($plan["plan_id"]);
       //echo "<pre>Grams: ".print_r($grams, true)."</pre>\n";
       
-      $this->load->view('dashboard/main', array("grams"=>$grams));
+      $this->load->view('dashboard/main', array("grams"=>$grams, "first_use"=>$first_use));
     }
 		$this->load->view('templates/footer');
 	}
