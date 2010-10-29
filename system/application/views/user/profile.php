@@ -15,7 +15,7 @@
     <?=form_input('phone', $user_name)?>
     <?
       $show_confirm = false;
-      if ($confirmed) {
+      if ($confirmed_number == 1) {
         echo " Confirmed!";
       } else { 
         $show_confirm = true;
