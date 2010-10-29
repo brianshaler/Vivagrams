@@ -13,6 +13,11 @@ class Api extends Controller
     $this->load->model('Plan_Model', '', TRUE);
     $this->load->model('Gram_Model', '', TRUE);
     $this->load->model('Message_Model', '', TRUE);
+    
+    $this->load->model('Command_Model', '', TRUE);
+    $this->load->model('Log_Model', '', TRUE);
+    
+    $this->load->model('Userprofile', '', TRUE);
 	}
 	
   function response()
@@ -20,30 +25,58 @@ class Api extends Controller
     $sender = $this->uri->segment(3);
     $msg = getvar("msg", "");
     $medium = "";
+    
+    $log = array();
+    $log["input"] = $_SERVER['REQUEST_URI'];
+    
+    // See if sender is just numbers
     if (strlen($sender) == strlen(digitsonly($sender)))
     {
       $sender = digitsonly($sender);
       if (strlen($sender) == 11 && $sender{0} == "1")
       {
+        // Drop the leading 1 if included
         $sender = substr($sender, 1);
       }
       if (strlen($sender) == 10)
       {
+        // We're sure this looks like a U.S. phone number
         $medium = "SMS";
       }
     }
+    // See if sender is a phone number
+    // .... eventually
+    
+    // Move on as long as we've made sense of the sender
     if ($medium != "")
     {
       $user = $this->User_Model->get_user_by_name($sender);
-      $messages = $this->Message_Model->get_unresponded_messages_by_user($user["user_id"]);
-      if (count($messages) > 0)
+      if (empty($user) || !isset($user["user_id"]) || !($user["user_id"] > 0))
       {
-        $this->Message_Model->update_message($messages[0]["message_id"], array("response"=>date("Y-m-d H:i:s"), "response_text"=>$msg));
+        $log["error"] = "User not found: $sender";
+        $user = array("user_id"=>-1);
+      } else
+      {
+        // Load basic commands
+        $global_commands = $this->Command_Model->get_commands_by_user_id(0);
+        // Load user commands
+        //$my_commands = $this->Command_Model->get_commands_by_user_id($user["user_id"]);
+        
+        // Respond to a message, if we're awaiting a response
+        $messages = $this->Message_Model->get_unresponded_messages_by_user($user["user_id"]);
+        if (count($messages) > 0)
+        {
+          $this->Message_Model->update_message($messages[0]["message_id"], array("response"=>date("Y-m-d H:i:s"), "response_text"=>$msg));
+        }
       }
     }
     $m = "Message from " . $sender . ": " . $msg;
     echo $m;
-    log_message('error', $m);
+    $log["sender"] = $sender;
+    $log["msg"] = $msg;
+    $log["medium"] = $medium;
+    $log["user"] = $user["user_id"];
+    $this->Log_Model->log(date('Y-m-d H:i:s'), (isset($log["error"]) ? "error" : "status"), "api", "response", json_encode($log));
   }
   
 	function get()
@@ -131,6 +164,32 @@ class Api extends Controller
       {
         $this->Gram_Model->delete_gram($gram_id);
       }
+    }
+  }
+  
+  function user ()
+  {
+    $action = strtolower($this->uri->segment(3));
+    $target = $this->uri->segment(4);
+    $fail = json_encode(array("message"=>"failed"));
+    
+    // UNAUTHENTICATED API ENDPOINTS
+    
+    if (!isValidUser())
+    {
+      $fail = json_encode(array("message"=>"Must be logged in to do that."));
+      echo $fail;
+      return;
+    }
+    
+    // AUTHENTICATED API ENDPOINTS
+    
+    if ($action == "dismiss_welcome")
+    {
+      $profile_data = array("welcome_message_seen"=>1);
+      $this->Userprofile->updateUserProfile(getUserProperty('id'), $profile_data);
+      echo json_encode(array("message"=>"success"));
+      return;
     }
   }
 }
