@@ -42,13 +42,14 @@ if (isValidUser())
 	  <div class="logo">
 	    <h1 class="ir">Vivagrams</h1>
 	  </div>
-	  <div class="right">
+	  <div class="right CronosProBold">
       <? if (!isValidUser()) { ?>
   	    <a href="#" class="CronosProBold headerLogin">Log in</a> | 
   		  <a href="#" class="CronosProBold headerRegister">Get started</a>
 	    <? } else { ?>
   	    Logged in as <a href="<?=$base_url?>profile" class="CronosProBold"><?=$user["display_name"]?></a> | 
-  		  <a href="<?=$base_url?>sessions/logout" class="CronosProBold">Log out</a>
+  		  <a href="<?=$base_url?>sessions/logout" class="CronosProBold">Log out</a><br />
+  		  Notifications: <a href="<?=$base_url?>profile"><? echo ($user["notifications"] == 1 ? "on" : "off"); ?></a>
 	    <? } ?>
 	  </div>
 	</div>

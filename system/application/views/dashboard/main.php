@@ -128,27 +128,11 @@ function CreateAmountGram ()
 }
 </script>
 <p class="footnote">Note: No need to press Save! Your changes are saved as you make them.</p>
-<? if (isset($first_use) && $first_use == true) { ?>
-  <div id="welcome_message" style="display: none;">
-  <?
-  $str = <<<endpopup
-  <a href="#" onclick="return CloseWelcomePopup();" class="deletebutton" style="float: right;" title="Close Popup"><img src="/public/images/x.gif" alt="Close" /></a>
-  <h3>Welcome to Vivagrams!</h3>
-  <p>
-    Welcome message...
-  </p>
-endpopup;
-  echo $this->load->view('widgets/popup', array("content"=>$str), true);
-  ?>
-  </div>
-  <script>
-  $('#welcome_message').show();
-  $('#welcome_message').center();
-  function CloseWelcomePopup() {
-    $('#welcome_message').hide();
-    $.post("/api/user/dismiss_welcome");
-  }
-  </script>
-<? } ?>
+<?
+if (isset($first_use) && $first_use == true)
+{
+  echo $this->load->view('widgets/welcome_popup', null, true);
+}
+?>
 </div>
 </div>
