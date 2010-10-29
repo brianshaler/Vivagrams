@@ -36,12 +36,17 @@ class User_Model extends Model {
     return array();
   }
   
-  function update_user_by_name ($str, $data)
-  {
-    $this->db->where("user_name", $str);
-    $this->db->update('user', $data);
-    
-  }
+    function update_user_by_name($str, $data)
+    {
+        $this->db->where("user_name", $str);
+        $this->db->update('user', $data);
+    }
+
+    function update_user_by_id($str, $data)
+    {
+        $this->db->where('id', $str);
+        $this->db->update('user', $data);
+    }
 }
 
 ?>

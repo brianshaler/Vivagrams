@@ -142,6 +142,11 @@ h3 {
   color: #7D7D7D;
 }
 
+.flash {
+    height: 20px;
+    padding: 10px;
+    background-color: #ECF8FA;
+}
 
 /* HEADER
 --------------------------------------------------- */

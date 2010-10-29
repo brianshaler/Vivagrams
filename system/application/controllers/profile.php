@@ -7,6 +7,7 @@ class Profile extends Controller {
 		parent::Controller();
 		
 		$this->load->library('FAL_front', 'fal_front');
+        //$this->load->library('session');
 		$this->load->helper('vivagrams');
 		$this->load->helper('oauth');
 		$this->load->helper('form');
@@ -28,19 +29,22 @@ class Profile extends Controller {
             return;
         }
             
+        // Process form
         if(!empty($_POST))
         {
-            $data = array('notifications' => $this->input->post('notifications'));
-            $this->Userprofile->updateUserProfile(getUserProperty('id'), $data);
-
-            $data = array('user_name' => $this->input->post('phone'), 
-            'password' => '');
-
+            $profile_data = array('notifications' => $this->input->post('notifications'));
+            $user_data = array('user_name' => $this->input->post('phone'));
+            if(!empty($_POST['password']))
+            {
+                $user_data['password'] = $this->freakauth_light->_encode($this->input->post('password'));
+            }
+            $this->Userprofile->updateUserProfile(getUserProperty('id'), $profile_data);
+            $this->User_Model->update_user_by_id(getUserProperty('id'), $user_data);
+            $this->db_session->set_flashdata('success', 'You have updated your account information');
+            redirect('/profile');
         }
 
-        //var_dump($user);
-  	
-        $this->load->view('templates/header', array('user' => $user));
+        $this->load->view('templates/header', $user);
         $this->load->view('user/profile', $user);
         $this->load->view('templates/footer');
 	}
