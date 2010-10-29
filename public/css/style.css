@@ -3,7 +3,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, images, ins, kbd, q, s, samp,
+del, dfn, font, images, ins, kbd, q, s, samp,
 small, strike, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -319,9 +319,36 @@ textarea {
 }
 .popup .popup_content {
   background: transparent url('/public/images/popup_middle.png') repeat-y;
-  padding: 0px 20px;
+  padding: 0px 18px;
 }
 .popup p {
+  margin: 0.5em 0px 1em 0px;
+}
+
+.wide_popup {
+  width: 521px;
+  line-height: 1.4em;
+}
+
+.wide_popup .wide_popup_top {
+  width: 521px;
+  height: 16px;
+  background-image: url('/public/images/popup_top_wide.png');
+}
+.wide_popup_top_pointer .wide_popup_top {
+  background-image: url('/public/images/popup_top_wide_pointer.png');
+  height: 23px;
+}
+.wide_popup .wide_popup_bottom {
+  width: 521px;
+  height: 17px;
+  background-image: url('/public/images/popup_bottom_wide.png');
+}
+.wide_popup .wide_popup_content {
+  background: transparent url('/public/images/popup_middle_wide.png') repeat-y;
+  padding: 0px 20px;
+}
+.wide_popup p {
   margin: 0.5em 0px 1em 0px;
 }
 
