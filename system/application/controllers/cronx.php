@@ -10,6 +10,8 @@ class Cronx extends Controller {
         // Load models
         $this->load->model('Gram_Model', '', TRUE);
         $this->load->model('Message_Model', '', TRUE);
+        
+        $this->load->model('Log_Model', '', TRUE);
     }
 
     function index() {
@@ -24,6 +26,8 @@ class Cronx extends Controller {
         redirect(base_url(), "location");
         return;
       }
+      
+      $output = "";
 
         // Constants
         define('INTERVAL', 15); // in minutes
@@ -52,14 +56,14 @@ class Cronx extends Controller {
         // Need time from midnight, as gram time isn't date sensitive
         $midnight_time = strtotime(date('n/j/Y', time()));
         
-        echo "Time of day: $hour:$minute:$second -> $start_time<br />";
-        echo "Grams for: " . date('Y-m-d H:i:s', $midnight_time+$start_time) . " - " . date('Y-m-d H:i:s', $midnight_time+$time) . "<br />";
+        $output .= "Time of day: $hour:$minute:$second -> $start_time\n";
+        $output .= "Grams for: " . date('Y-m-d H:i:s', $midnight_time+$start_time) . " - " . date('Y-m-d H:i:s', $midnight_time+$time) . "\n";
         
-        echo "Grams to send: ".count($grams).":<br />";
+        $output .= "Grams to send: ".count($grams).":<br />";
         foreach($grams as $gram) {
             $gram_time_with_date = $midnight_time + $gram['time_of_day'];
             $message = $gram['message'];
-            if (strlen($message) > 0)
+            if (strlen($message) > 0 && $gram['notifications'] == 1)
             {
               if ($gram['response_type'] == "boolean")
               {
@@ -74,6 +78,7 @@ class Cronx extends Controller {
               $this->Message_Model->create_message($gram);
             }
         }
+        echo $output;
     }
 
     // Send unsent messages
@@ -85,15 +90,18 @@ class Cronx extends Controller {
         return;
       }
       
+      $output = "";
+      
       $sent_count = 0;
         $unsent_messages = $this->Message_Model->get_unsent_messages(date('Y-m-d H:i:s'));
-        var_dump($unsent_messages);
+        //var_dump($unsent_messages);
         $users = array();
         
         //$this->Message_Model->send_message($unsent_messages[0]['message_id']);
         foreach($unsent_messages as $message) {
           if ($sent_count >= $this->max_sms)
           {
+            // We've reach the number of messages we want to send per minute
             return;
           } else
           {
@@ -103,9 +111,10 @@ class Cronx extends Controller {
             }
             if (count($users[$message["user_id"]]) > 0)
             {
-              echo "<pre>user_id: ".$message["user_id"]."</pre>";
+              $output .= "skipping (due to previous unresponded messages: ".$message["user_id"]."\n";
               // waiting for a response from this user
             } else
+            if ($message['notifications'] == 1)
             {
               // Send to Tropo
               $user = $message['user_name'];
@@ -117,26 +126,36 @@ class Cronx extends Controller {
             }
           }
         }
+        echo $output;
     }
     
     function _send_message ($recipient, $message) {
       $dev = true;
+      $log = array();
+      
       $msg = urlencode($message['message']);
       $url = "http://api.tropo.com/1.0/sessions?action=create&token=d61d3c07322a2541ae6006f4c74900777b23d859e7aefd19e7c9141691d24f80312a5ced9ac42d688c0f1921&messageto=";
       $url .= urlencode($recipient);
       $url .= "&mynetwork=SMS&outboundmessage=";
       $url .= urlencode($message);
+      
+      $ch = curl_init();
+      curl_setopt($ch, CURLOPT_URL, $url);
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
       if ($dev)
       {
-        echo "Send message: $url<br />";
+        $str = curl_exec($ch);
       } else
       {
-        $ch = curl_init();
-        //curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        //$str = curl_exec($ch);
-        curl_close($ch);
+        $str = "RESULT NOT AVAILABLE IN DEV MODE";
       }
+      curl_close($ch);
+      
+      $log["info"] = $str;
+      $log["url"] = $url;
+      $log["recipient"] = $recipient;
+      $log["message"] = $message;
+      $this->Log_Model->log(date('Y-m-d H:i:s'), "tropo", "cron", "_send_message", json_encode($log));
     }
 }
 

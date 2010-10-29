@@ -55,6 +55,8 @@
 		{
 			$this->db->where('gram_id', intval($gram_id));
 			$this->db->join('plans', 'plans.plan_id = grams.plan_id');
+			$this->db->join('user', 'user.id = plans.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			
 			$this->db->order_by('time_of_day');
 			
@@ -69,6 +71,8 @@
 		{
 			$this->db->where('grams.plan_id', intval($plan_id));
 			$this->db->join('plans', 'plans.plan_id = grams.plan_id');
+			$this->db->join('user', 'user.id = plans.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			
 			$this->db->order_by('time_of_day', 'asc');
 			
@@ -88,6 +92,8 @@
 			$this->db->where('time_of_day >=', intval($start_time_of_day));
 			$this->db->where('time_of_day <', intval($end_time_of_day));
 			$this->db->join('plans', 'plans.plan_id = grams.plan_id');
+			$this->db->join('user', 'user.id = plans.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			
 			$this->db->order_by('time_of_day');
 			

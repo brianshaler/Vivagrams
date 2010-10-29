@@ -80,8 +80,7 @@ CREATE TABLE IF NOT EXISTS `logs` (
   `info` text NOT NULL,
   KEY `event_time` (`event_time`),
   KEY `event_type` (`event_type`),
-  KEY `controller` (`controller`),
-  KEY `controller_2` (`controller`)
+  KEY `controller` (`controller`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
