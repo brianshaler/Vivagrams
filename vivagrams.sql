@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.7deb1
+-- version 3.3.5
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 27, 2010 at 12:56 AM
+-- Generation Time: Oct 29, 2010 at 07:07 AM
 -- Server version: 5.1.49
--- PHP Version: 5.3.3-1ubuntu9.1
+-- PHP Version: 5.3.1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -22,6 +22,22 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `commands`
+--
+
+CREATE TABLE IF NOT EXISTS `commands` (
+  `user_id` int(11) NOT NULL,
+  `command` varchar(10) NOT NULL,
+  `action` varchar(25) NOT NULL,
+  `note` varchar(155) NOT NULL,
+  UNIQUE KEY `user_id_command` (`user_id`,`command`),
+  KEY `user_id` (`user_id`),
+  KEY `command` (`command`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `country`
 --
 
@@ -32,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `country` (
   `iso3` char(3) DEFAULT NULL,
   `numcode` smallint(6) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -48,7 +64,25 @@ CREATE TABLE IF NOT EXISTS `grams` (
   `response_type` varchar(10) NOT NULL,
   PRIMARY KEY (`gram_id`),
   KEY `plan_id` (`plan_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=44 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `logs`
+--
+
+CREATE TABLE IF NOT EXISTS `logs` (
+  `event_time` datetime NOT NULL,
+  `event_type` varchar(10) NOT NULL,
+  `controller` varchar(15) NOT NULL,
+  `method` varchar(20) NOT NULL,
+  `info` text NOT NULL,
+  KEY `event_time` (`event_time`),
+  KEY `event_type` (`event_type`),
+  KEY `controller` (`controller`),
+  KEY `controller_2` (`controller`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -68,7 +102,7 @@ CREATE TABLE IF NOT EXISTS `messages` (
   PRIMARY KEY (`message_id`),
   UNIQUE KEY `user_id` (`user_id`,`gram_id`,`send`),
   KEY `send_gram_user` (`send`,`gram_id`,`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -81,7 +115,7 @@ CREATE TABLE IF NOT EXISTS `plans` (
   `plan_id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`plan_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -119,7 +153,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`),
   KEY `user_FI_1` (`country_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -130,12 +164,10 @@ CREATE TABLE IF NOT EXISTS `user` (
 CREATE TABLE IF NOT EXISTS `user_profile` (
   `id` int(11) NOT NULL,
   `display_name` varchar(55) NOT NULL,
-  `img` varchar(60) NOT NULL,
-  `email_notifications` tinyint(1) NOT NULL,
-  `custom_email` varchar(140) NOT NULL,
-  `email_notice` varchar(55) NOT NULL,
-  `notifications` tinyint(1) NOT NULL,
-  `welcome_message_seen` tinyint(1) NOT NULL,
+  `confirmed` tinyint(4) NOT NULL,
+  `notifications` tinyint(4) NOT NULL,
+  `welcome_message_seen` tinyint(4) NOT NULL,
+  `confirmed_number` tinyint(4) NOT NULL,
   UNIQUE KEY `id` (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -155,4 +187,4 @@ CREATE TABLE IF NOT EXISTS `user_temp` (
   `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   KEY `user_FI_1` (`country_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
