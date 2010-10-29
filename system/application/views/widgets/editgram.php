@@ -86,7 +86,9 @@ if (!function_exists("pad_zero"))
        });
   }
   function GramPopup<?=$gram_id?>() {
-    var strContent = "<? if ($response_type == "boolean") { 
+    var strContent = "";
+    strContent += "<a href=\"#\" onclick=\"return false;\" class=\"deletebutton\" style=\"float: right;\" title=\"Close Popup\"><img src=\"/public/images/x.gif\" alt=\"Close\" /></a>";
+    strContent += "<? if ($response_type == "boolean") { 
       ?><span class=\"CronosProBold\">Vivagrams will send you:</span><br /><p>&nbsp;&nbsp;&nbsp;<em>\"Did you <u>{message}</u>\"</em></span></p><span class=\"CronosProBold\">And you'll respond with a yes/no answer:</span><br /><p style=\"margin-bottom: 0px\">&nbsp;&nbsp;&nbsp;<em>\"Yes\"</em> or <em>\"no\"</em> or <em>\"y\"</em> etc.</p><? 
       } else {
         ?><span class=\"CronosProBold\">Vivagrams will send you:</span><br /><p>&nbsp;&nbsp;&nbsp;<em>\"<u>{message}</u></em>\"</em></span></p><span class=\"CronosProBold\">And you'll respond with a number:</span><br /><p style=\"margin-bottom: 0px\">&nbsp;&nbsp;&nbsp;<em>\"8\"</em> or <em>\"1.5\"</em> etc.<?
