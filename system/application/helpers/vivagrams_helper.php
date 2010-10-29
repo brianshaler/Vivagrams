@@ -1,5 +1,10 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
+function vivagrams_number()
+{
+  return "415-555-1234";
+}
+
 $getvars = array();
 function getvar($name, $default = false)
 {
