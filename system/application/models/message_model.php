@@ -113,6 +113,23 @@
 			
 			return $messages;
 		}
+		
+		function get_responded_messages_by_user ($user_id) {
+		  // Uh... this is NOT going to scale without pagination
+			$this->db->where('user_id', $user_id);
+			$this->db->where('response >', 0);
+			$this->db->join('user', 'user.id = messages.user_id');
+			$this->db->order_by('sent');
+			$query = $this->db->get('messages');
+			
+			$messages = array();
+			foreach ($query->result_array() as $row)
+			{
+				$messages[] = $row;
+			}
+			
+			return $messages;
+		}
 
     function send_message($message_id) {
       $this->db->where('message_id', intval($message_id));

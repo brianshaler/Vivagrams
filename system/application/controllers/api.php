@@ -230,7 +230,7 @@ class Api extends Controller
   
   function run_command ($user, $action, $content)
   {
-    echo "run_command: ".$user["user_id"].", $action, $content<br />";
+    //echo "run_command: ".$user["user_id"].", $action, $content<br />";
     if ($action == "confirm")
     {
       // GO = phone number confirmation
@@ -242,10 +242,8 @@ class Api extends Controller
       if ($user["confirmed_number"] == 1)
       {
         $this->Userprofile->updateUserProfile($user["user_id"], array("notifications"=>1));
-        echo "Notifications ON";
       } else
       {
-        echo "Confirm first";
         // Well, maybe "on" should be synonymous with "go"....
       }
     } else
@@ -253,16 +251,31 @@ class Api extends Controller
     {
       // Turn notifications off
       $this->Userprofile->updateUserProfile($user["user_id"], array("notifications"=>0));
-      echo "Notifications OFF";
     } else
     if ($action == "skip")
     {
       // Skip current question
-      
+      $messages = $this->Message_Model->get_unresponded_messages_by_user($user["user_id"]);
+      if (count($messages) > 0)
+      {
+        $data = array(  "response"=>date("Y-m-d H:i:s"),
+                        "response_text"=>"skip"
+                        );
+        $this->Message_Model->update_message($messages[0]["message_id"], $data);
+      }
     } else
     if ($action == "undo")
     {
       // Delete the last response from the user and resend the question
+      $messages = $this->Message_Model->get_responded_messages_by_user($user["user_id"]);
+      if (count($messages) > 0)
+      {
+        $data = array(  "response"=>"0000-00-00 00:00:00",
+                        "response_text"=>"",
+                        "sent"=>"0000-00-00 00:00:00"
+                        );
+        $this->Message_Model->update_message($messages[count($messages)-1]["message_id"], $data);
+      }
     } else
     if ($action == "help")
     {
