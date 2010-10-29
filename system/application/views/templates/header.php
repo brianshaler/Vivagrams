@@ -27,6 +27,7 @@ if (isValidUser())
 	        if (isset($page_keywords)) { echo "<meta name=\"keywords\" content=\"$page_keywords\" />\n"; }
 		?>
     <script src="<?=$base_url?>public/shared/js/jquery-latest.js" type="text/javascript"></script>
+    <script src="<?=$base_url?>public/shared/js/vivagrams.js"></script>
 		
     <? if (!isValidUser()) { ?>
 		<script src="<?=$base_url?>public/shared/js/login.js"></script>
