@@ -39,7 +39,7 @@ $str = <<<endpopup
     <a href="#" onclick="return CreateAmountGram();"><img src="{$base_url}public/images/selectbutton.png" /></a>
   </div>
   <div class="text_div">
-    <a href="#" onclick="return CreateAmountGram();"><strong>Amount - Track progress over time</strong></a>
+    <a href="#" onclick="return CreateAmountGram();"><strong>Amount: Track progress over time</strong></a>
     <br />
     <a href="#" onclick="return CreateAmountGram();"><span class="example">Vivagram: “How much do you weigh right now?”<br />
     Response: “195 lbs”</span></a>
@@ -50,7 +50,7 @@ $str = <<<endpopup
     <a href="#" onclick="return CreateBooleanGram();"><img src="{$base_url}public/images/selectbutton.png" /></a>
   </div>
   <div class="text_div">
-    <a href="#" onclick="return CreateBooleanGram();"><strong>Completion - Day-to-Day Consistency</strong></a>
+    <a href="#" onclick="return CreateBooleanGram();"><strong>Completion: Daily Consistency</strong></a>
     <br />
     <a href="#" onclick="return CreateBooleanGram();"><span class="example">Vivagram: “Did you go for a run?”<br />
     Response: “Yes”</span></a>
@@ -58,39 +58,23 @@ $str = <<<endpopup
 </p>
 endpopup;
 echo $this->load->view('widgets/popup', array("content"=>$str), true);
+
 ?>
 </div>
+<div id="wide_popup" class="wide_popup_top_pointer" style="display: none;">
+<?
+echo $this->load->view('widgets/popup_wide', array("content"=>""), true);
+?>
+</div>
+
 <p style="margin: 10px 0px 20px;">
   <a href="#" onclick="return CreateGram();" title="Add new gram"><img src="<?=base_url()?>public/images/addnew.png" alt="Add new gram" /></a>
 </p>
 <script>
-jQuery.fn.center = function () {
-    this.css("position","absolute");
-    this.css("top", ( $(window).height() - this.height() ) / 2+$(window).scrollTop() + "px");
-    this.css("left", ( $(window).width() - this.width() ) / 2+$(window).scrollLeft() + "px");
-    return this;
-}
-
 function CreateGram ()
 {
   $("#create_gram_popup").show();
   $("#create_gram_popup").center();
-  return false;
-  $.post("/api/gram/create/", null,
-     function(data){
-       newdiv = $("<div>");
-       newdiv.html(data);
-       newdiv.attr("id", "div_gramtmp");
-       $("#gramholder").append(newdiv);
-       newid = $("#div_gramtmp .gram_id").html();
-       newdiv.attr("id", "div_gram"+newid);
-       $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_minute").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_ampm").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_message").keyup(eval("UpdateGramText"+newid));
-       $("#gram_"+newid+"_message").change(eval("UpdateGramText"+newid));
-       $("#gram_"+newid+"_message").focus();
-     });
   return false;
 }
 function CreateBooleanGram ()
@@ -103,11 +87,7 @@ function CreateBooleanGram ()
        $("#gramholder").append(newdiv);
        newid = $("#div_gramtmp .gram_id").html();
        newdiv.attr("id", "div_gram"+newid);
-       $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_minute").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_ampm").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_message").keyup(eval("UpdateGramText"+newid));
-       $("#gram_"+newid+"_message").change(eval("UpdateGramText"+newid));
+       eval("InitGram"+newid+"()");
        $("#gram_"+newid+"_message").focus();
        $("#create_gram_popup").hide();
      });
@@ -123,11 +103,7 @@ function CreateAmountGram ()
        $("#gramholder").append(newdiv);
        newid = $("#div_gramtmp .gram_id").html();
        newdiv.attr("id", "div_gram"+newid);
-       $("#gram_"+newid+"_hour").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_minute").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_ampm").change(eval("UpdateGram"+newid));
-       $("#gram_"+newid+"_message").keyup(eval("UpdateGramText"+newid));
-       $("#gram_"+newid+"_message").change(eval("UpdateGramText"+newid));
+       eval("InitGram"+newid+"()");
        $("#gram_"+newid+"_message").focus();
        $("#create_gram_popup").hide();
      });
@@ -135,5 +111,11 @@ function CreateAmountGram ()
 }
 </script>
 <p class="footnote">Note: No need to press Save! Your changes are saved as you make them.</p>
+<?
+if (isset($first_use) && $first_use == true)
+{
+  echo $this->load->view('widgets/welcome_popup', null, true);
+}
+?>
 </div>
 </div>

@@ -21,7 +21,7 @@
 		
 		function create_message ($data)
 		{
-		  // Check to see if the gram has been set to be send in this interval
+		  // Check to see if the gram has been set to be sent in this interval
 		  // To avoid sending duplicate messages, user_id-gram_id-send must be UNIQUE in MySQL
 			$this->db->where('user_id', $data['user_id']);
       $this->db->where('gram_id', $data['gram_id']);
@@ -46,6 +46,7 @@
 		{
 			$this->db->where('message_id', intval($message_id));
 			$this->db->join('user', 'user.id = messages.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			$this->db->order_by('send');
 			$query = $this->db->get('messages');
 	    
@@ -58,6 +59,7 @@
 		{
 			$this->db->where('user_id', intval($user_id));
 			$this->db->join('user', 'user.id = messages.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			$this->db->order_by('send');
 			$query = $this->db->get('messages');
 			$messages = array();
@@ -72,6 +74,7 @@
 		{
 			$this->db->where('gram_id', intval($gram_id));
 			$this->db->join('user', 'user.id = messages.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			$this->db->order_by('send');
 			$query = $this->db->get('messages');
 			$messages = array();
@@ -86,6 +89,7 @@
 			$this->db->where('sent', 0);
 			$this->db->where('send <', $end_time);
 			$this->db->join('user', 'user.id = messages.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			$this->db->order_by('send');
 			$query = $this->db->get('messages');
 			
@@ -102,6 +106,25 @@
 			$this->db->where('response', 0);
 			$this->db->where('sent >', 0);
 			$this->db->join('user', 'user.id = messages.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
+			$this->db->order_by('sent');
+			$query = $this->db->get('messages');
+			
+			$messages = array();
+			foreach ($query->result_array() as $row)
+			{
+				$messages[] = $row;
+			}
+			
+			return $messages;
+		}
+		
+		function get_responded_messages_by_user ($user_id) {
+		  // Uh... this is NOT going to scale without pagination
+			$this->db->where('user_id', $user_id);
+			$this->db->where('response >', 0);
+			$this->db->join('user', 'user.id = messages.user_id');
+			$this->db->join('user_profile', 'user.id = user_profile.id');
 			$this->db->order_by('sent');
 			$query = $this->db->get('messages');
 			

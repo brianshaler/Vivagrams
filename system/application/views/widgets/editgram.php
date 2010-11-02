@@ -85,11 +85,30 @@ if (!function_exists("pad_zero"))
        function(data){
        });
   }
-  $('#gram_<?=$gram_id?>_hour').change(UpdateGram<?=$gram_id?>);
-  $('#gram_<?=$gram_id?>_minute').change(UpdateGram<?=$gram_id?>);
-  $('#gram_<?=$gram_id?>_ampm').change(UpdateGram<?=$gram_id?>);
-  $('#gram_<?=$gram_id?>_message').keyup(UpdateGramText<?=$gram_id?>);
-  $('#gram_<?=$gram_id?>_message').change(UpdateGramText<?=$gram_id?>);
-  
+  function GramPopup<?=$gram_id?>() {
+    var strContent = "";
+    strContent += "<a href=\"#\" onclick=\"return false;\" class=\"deletebutton\" style=\"float: right;\" title=\"Close Popup\"><img src=\"/public/images/x.gif\" alt=\"Close\" /></a>";
+    strContent += "<? if ($response_type == "boolean") { 
+      ?><span class=\"CronosProBold\">Vivagrams will send you:</span><br /><p>&nbsp;&nbsp;&nbsp;<em>\"Did you <u>{message}</u>\"</em></span></p><span class=\"CronosProBold\">And you'll respond with a yes/no answer:</span><br /><p style=\"margin-bottom: 0px\">&nbsp;&nbsp;&nbsp;<em>\"Yes\"</em> or <em>\"no\"</em> or <em>\"y\"</em> etc.</p><? 
+      } else {
+        ?><span class=\"CronosProBold\">Vivagrams will send you:</span><br /><p>&nbsp;&nbsp;&nbsp;<em>\"<u>{message}</u></em>\"</em></span></p><span class=\"CronosProBold\">And you'll respond with a number:</span><br /><p style=\"margin-bottom: 0px\">&nbsp;&nbsp;&nbsp;<em>\"8\"</em> or <em>\"1.5\"</em> etc.<?
+      } ?>";
+    var msg = $("#gram_<?=$gram_id?>_message").val();
+    if (msg.charAt(msg.length-1) != "?") { msg += "?"; }
+    strContent = strContent.replace("{message}", msg);
+    strContent += "<div style=\"clear: both; height: 1px;\"><!-- --></div>";
+    $("#gram_<?=$gram_id?>_message").ShowWidePopup(strContent);
+  }
+  function InitGram<?=$gram_id?>() {
+    $('#gram_<?=$gram_id?>_message').keyup(GramPopup<?=$gram_id?>);
+    $('#gram_<?=$gram_id?>_message').focus(GramPopup<?=$gram_id?>);
+    $('#gram_<?=$gram_id?>_message').blur(function () { $("#gram_<?=$gram_id?>_message").HideWidePopup(); });
+    $('#gram_<?=$gram_id?>_hour').change(UpdateGram<?=$gram_id?>);
+    $('#gram_<?=$gram_id?>_minute').change(UpdateGram<?=$gram_id?>);
+    $('#gram_<?=$gram_id?>_ampm').change(UpdateGram<?=$gram_id?>);
+    $('#gram_<?=$gram_id?>_message').keyup(UpdateGramText<?=$gram_id?>);
+    $('#gram_<?=$gram_id?>_message').change(UpdateGramText<?=$gram_id?>);
+  }
+  InitGram<?=$gram_id?>();
   </script>
 </div>
