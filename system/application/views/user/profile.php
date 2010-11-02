@@ -10,6 +10,10 @@
 <?=form_open('/profile', array('class' => 'account'))?>
 <?=form_fieldset('User Info')?>
 <p>
+    <?=form_label('Display Name', 'display_name')?>
+    <?=form_input('display_name', $display_name)?>
+</p>
+<p>
     <?=form_label('Phone', 'phone')?>
     <?=form_input('phone', $user_name)?>
 </p>
