@@ -118,11 +118,14 @@ class Api extends Controller
 	{
     $action = strtolower($this->uri->segment(3));
     
+    $fail = json_encode(array("message"=>"failed"));
+    
     // TIME
     $year = intval(getvar('year', intval(date('Y', time()))));
     $month = intval(getvar('month', intval(date('n', time()))));
     $day = intval(getvar('day', intval(date('j', time()))));
     $starttime = getvar('starttime', '');
+    
     if ($starttime != '')
     {
         $starttime = strtotime($starttime);
@@ -139,6 +142,117 @@ class Api extends Controller
     // STRUCTURE
     $format = strtolower(getvar('format', 'json'));
     $callback = getvar('callback', '');
+    
+    if ($action == "grams")
+    {
+      // get grams by user
+      if (isValidUser())
+      {
+        // currently authenticated user by browser session
+        $user_id = getUserProperty('id');
+        $plan = $this->Plan_Model->get_plan_by_user_id($user_id);
+        $grams = $this->Gram_Model->get_grams_by_plan_id($plan["plan_id"]);
+        
+        foreach ($grams as $k => $gram)
+        {
+          $grams[$k] = $this->_public_gram($gram);
+        }
+        
+        $str = "[]";
+        if (count($grams) > 1)
+        {
+          $str = json_encode($grams);
+        } else
+        if (count($grams) == 1)
+        {
+          $str = "[" . json_encode($grams) . "]";
+        }
+        echo $str;
+        return;
+      } else
+      {
+        // later we can support authentication
+        
+      }
+      return $fail;
+    } else
+    if ($action == "responses")
+    {
+      // get responses by user
+      if (isValidUser())
+      {
+        // currently authenticated user by browser session
+        $user_id = getUserProperty('id');
+        $messages = $this->Message_Model->get_responded_messages_by_user($user_id);
+        
+        foreach ($messages as $k => $message)
+        {
+          $messages[$k] = $this->_public_message($message);
+        }
+        
+        $str = "[]";
+        if (count($messages) > 1)
+        {
+          $str = json_encode($messages);
+        } else
+        if (count($messages) == 1)
+        {
+          $str = "[" . json_encode($messages) . "]";
+        }
+        echo $str;
+        return;
+      } else
+      {
+        // not logged in
+      }
+    } else
+    {
+      if ($action == "responses_by_gram")
+      {
+        // get responses by user
+        if (isValidUser())
+        {
+          // currently authenticated user by browser session
+          $user_id = getUserProperty('id');
+          $plan = $this->Plan_Model->get_plan_by_user_id($user_id);
+          $grams = $this->Gram_Model->get_grams_by_plan_id($plan["plan_id"]);
+          $messages = $this->Message_Model->get_responded_messages_by_user($user_id);
+          
+          $newgrams = array();
+          foreach ($grams as $k => $gram)
+          {
+            $gram = $this->_public_gram($gram);
+            $newgrams[$gram["gram_id"]] = $gram;
+            $newgrams[$gram["gram_id"]]["messages"] = array();
+          }
+          $grams = $newgrams;
+          foreach ($messages as $k => $message)
+          {
+            $message = $this->_public_message($message);
+            if (isset($grams[$message["gram_id"]]["messages"]))
+            {
+              $grams[$message["gram_id"]]["messages"][] = $message;
+            }
+          }
+
+          $str = "[]";
+          if (count($grams) > 1)
+          {
+            $str = json_encode($grams);
+          } else
+          if (count($grams) == 1)
+          {
+            $str = "[" . json_encode($grams) . "]";
+          }
+          echo $str;
+          return;
+        }
+      } else
+      {
+        
+      }
+      return $fail;
+    }
   }
   
   function gram ()
@@ -281,6 +395,28 @@ class Api extends Controller
     {
       // Send a help message to the user
     }
+  }
+  
+  function _public_gram ($orig_gram)
+  {
+    $gram = array();
+    $allowed_fields = array("gram_id", "plan_id", "user_id", "time_of_day", "message", "response_type");
+    foreach ($allowed_fields as $field)
+    {
+      $gram[$field] = $orig_gram[$field];
+    }
+    return $gram;
+  }
+  
+  function _public_message ($orig_message)
+  {
+    $message = array();
+    $allowed_fields = array("message_id", "user_id", "gram_id", "message", "response", "response_text");
+    foreach ($allowed_fields as $field)
+    {
+      $message[$field] = $orig_message[$field];
+    }
+    return $message;
   }
 }
 
