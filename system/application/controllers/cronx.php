@@ -10,8 +10,10 @@ class Cronx extends Controller {
         // Load models
         $this->load->model('Gram_Model', '', TRUE);
         $this->load->model('Message_Model', '', TRUE);
+        $this->load->model('User_Model', '', TRUE);
         
         $this->load->model('Log_Model', '', TRUE);
+
     }
 
     function index() {
@@ -93,7 +95,6 @@ class Cronx extends Controller {
       
       $sent_count = 0;
         $unsent_messages = $this->Message_Model->get_unsent_messages(date('Y-m-d H:i:s'));
-        //var_dump($unsent_messages);
         $users = array();
         
         foreach($unsent_messages as $message) {
@@ -117,7 +118,7 @@ class Cronx extends Controller {
               // Send to Tropo
               $user = $message['user_name'];
               $users[$message["user_id"]][] = $message;
-              $this->_send_message($message['user_name'], $message['message']);
+              //$this->_send_message($message['user_name'], $message['message']);
               
               $this->Message_Model->send_message($message['message_id']);
               $sent_count++;
@@ -127,6 +128,43 @@ class Cronx extends Controller {
         echo $output;
     }
     
+    /*
+     * Checks if users are actively responding to messages.
+     * Disables messaging and clears out queue if there
+     * are no recent responses.
+     */
+    function activity_check()
+    {
+        define('STALE_TIME', date('Y-m-d H:i:s', time() - 12*3600));
+        define('MAX_QUEUE', 4);
+
+        if (!CRON || CRON !== true)
+        {
+            redirect(base_url(), "location");
+            return;
+        }
+        
+        $output = '';
+
+        $users = $this->User_Model->get_all_users();
+        foreach($users as $user)
+        {
+            // Get unresponded messages
+            $unresponded = $this->Message_Model->get_unresponded_messages_by_user($user['id']);
+
+            // Disable if first message is older than STALE_TIME *or* 
+            // count is greater than MAX_QUEUE
+            if($unresponded[0]['sent'] < STALE_TIME || count($unresponded) > MAX_QUEUE)
+            {
+                $this->User_Model->disable_notifications($unresponded[0]['user_id']);
+                $output .= "Notifications disabled for user {$unresponded[0]['user_id']}.\n";
+            }
+
+        }
+        
+        echo $output;
+    }
+
     function _send_message ($recipient, $message) {
       $dev = true;
       $log = array();

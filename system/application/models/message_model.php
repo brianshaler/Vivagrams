@@ -104,10 +104,10 @@
 		function get_unresponded_messages_by_user ($user_id) {
 			$this->db->where('user_id', $user_id);
 			$this->db->where('response', 0);
-			$this->db->where('sent >', 0);
+			//$this->db->where('sent >', 0);
 			$this->db->join('user', 'user.id = messages.user_id');
 			$this->db->join('user_profile', 'user.id = user_profile.id');
-			$this->db->order_by('sent');
+			$this->db->order_by('message_id');
 			$query = $this->db->get('messages');
 			
 			$messages = array();
