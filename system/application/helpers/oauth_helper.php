@@ -1,4 +1,4 @@
-<?
+<?php
 include 'twitter-async/EpiCurl.php';
 include 'twitter-async/EpiOAuth.php';
 include 'twitter-async/EpiTwitter.php';
@@ -55,5 +55,3 @@ function get_screen_name ()
   $obj = json_decode($creds->responseText, true);
   return $obj["screen_name"];
 }
-
-?>
