@@ -305,4 +305,3 @@ function flashMsg($msg)
 	$obj->db_session->set_flashdata('flashMessage', $msg);
     return true;
 }
-?>
